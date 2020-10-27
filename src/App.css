@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-image: url("./Assets/images/290-olive-oil-bottle-mockup\ 1.png");
   min-height: 100vh;
+
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
   font-size: calc(10px + 2vmin);
   color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
+.nav-style {
+  background-color: transparent;
+  border-color: transparent;
+  color: green;
 
-.App-link {
-  color: #61dafb;
+  font-size: 18px;
+  font-weight: 900px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-nav > li {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 50px;
+  color: white;
+}
+.margin-top {
+  margin-top: 49px;
+  font-size: 18px;
+}
+.contact-margin-top {
+  margin-top: 60px;
+  font-size: 18px;
+}
+.logo {
+  margin-left: 150px;
+}
+.contact-us {
+  border-radius: 4px;
+  background-color: #3ac6b7;
+  color: white;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.phone {
+  position: relative;
+  width: 235px;
+  height: 411.48px;
+  top: 204px;
+}
+.footer {
+  background-color: #193e50;
+  color: white;
+  font-size: 20px;
+}
+.seal {
+  padding: 150px;
+}
+.footer-text {
+  padding-top: 150px;
+}
+.footer-text-tag {
+  margin-top: 20px;
+  font-size: 18px;
+}
+.footer-icons {
+  margin-bottom: 60px;
 }
