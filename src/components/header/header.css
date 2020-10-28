@@ -1,0 +1,44 @@
+.header {
+  position: fixed;
+  min-height: 10vh;
+  right: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.header-top {
+  background: transparent;
+}
+.header-amid {
+  background: white;
+}
+
+.header-amid a {
+  color: black;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  height: 20vh;
+  align-items: center;
+}
+.navigation .nav-items {
+  display: flex;
+  color: white;
+}
+
+.navigation .nav-items .nav-item {
+  margin: 0 20px;
+}
+
+.header button {
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  background: #3ac6b7;
+}
+
+.header-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}

@@ -11,3 +11,71 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App-header {
+  background-image: url('./Assets/images/290-olive-oil-bottle-mockup\ 1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.nav-style {
+  background-color: transparent;
+  border-color: transparent;
+  color: green;
+
+  font-size: 18px;
+  font-weight: 900px;
+}
+.navbar-nav > li {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 50px;
+  color: white;
+}
+.margin-top {
+  margin-top: 49px;
+  font-size: 18px;
+}
+.contact-margin-top {
+  margin-top: 60px;
+  font-size: 18px;
+}
+.logo {
+  margin-left: 150px;
+}
+.contact-us {
+  border-radius: 4px;
+  background-color: #3ac6b7;
+  color: white;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.phone {
+  position: relative;
+  width: 235px;
+  height: 411.48px;
+  top: 204px;
+}
+.footer {
+  background-color: #193e50;
+  color: white;
+  font-size: 20px;
+}
+.seal {
+  padding: 150px;
+}
+.footer-text {
+  padding-top: 150px;
+}
+.footer-text-tag {
+  margin-top: 20px;
+  font-size: 18px;
+}
+.footer-icons {
+  margin-bottom: 60px;
+}
