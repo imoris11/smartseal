@@ -41,16 +41,16 @@ export default function Header() {
               <NavLink to={'/'} className='nav-item'>
                 Home
               </NavLink>
-              <NavLink to={'/'} className='nav-item'>
+              <NavLink to={'/about'} className='nav-item'>
                 About
               </NavLink>
-              <NavLink to={'/'} className='nav-item'>
+              <NavLink to={'/features'} className='nav-item'>
                 Features
               </NavLink>
-              <NavLink to={'/'} className='nav-item'>
+              <NavLink to={''} className='nav-item'>
                 Market
               </NavLink>
-              <NavLink to={'/'} className='nav-item'>
+              <NavLink to={'/blog'} className='nav-item'>
                 Blog
               </NavLink>
             </div>
