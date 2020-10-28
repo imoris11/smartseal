@@ -1,0 +1,5 @@
+.banner {
+  min-height: 100vh;
+  background: url('../../static//img/the-brand-bg.png') no-repeat center center;
+  background-size: cover;
+}

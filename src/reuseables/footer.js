@@ -1,4 +1,3 @@
-import "../App.css";
 import seal from "../Assets/images/Accent_Smart Seal_Guilloche_White 1.png";
 import facebook from "../Assets/images/facebook.png";
 import linkedin from "../Assets/images/linkedin.png";
