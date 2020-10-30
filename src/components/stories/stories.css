@@ -1,0 +1,26 @@
+.stories {
+  min-height: 100vh;
+}
+.stories h1 {
+  font-size: 25px;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+.stories h2 {
+  font-size: 20px;
+}
+.stories p {
+  color: #008678;
+}
+.stories .row.center {
+  padding: 5vw;
+}
+.stories-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stories .stories-img img {
+  width: 100%;
+}

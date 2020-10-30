@@ -1,19 +1,19 @@
-import React from "react";
-import lifecycle from "../../static/icon/life-cycle.png";
-import promote from "../../static/icon/promote.png";
-import recycle from "../../static/icon/recycle.png";
-import info from "../../static/icon/info.png";
-import boot from "../../static/img/f.png";
-import spin from "../../static/img/e.png";
-import TellUs from "../../reuseables/tell-us";
+import React from 'react';
+import lifecycle from '../../static/icon/life-cycle.png';
+import promote from '../../static/icon/promote.png';
+import recycle from '../../static/icon/recycle.png';
+import info from '../../static/icon/info.png';
+import boot from '../../static/img/retail.png';
+import spin from '../../static/img/engineering.png';
+import TellUs from '../../reuseables/tell-us';
 
 function Pharmacetical() {
   return (
     <div>
-      <div className="pharmacetical-header">
-        <div className="container">
-          <div className="row center" style={{ paddingTop: "40vh" }}>
-            <div className="col fashion-text text-white">
+      <div className='pharmaceutical-header'>
+        <div className='container'>
+          <div className='row center' style={{ paddingTop: '40vh' }}>
+            <div className='col fashion-text text-white'>
               <h1>Pharmaceutical</h1>
               <p>
                 Verifiable Products Means <br /> Better Consumer Safety.
@@ -56,8 +56,8 @@ function Pharmacetical() {
             </div>
           </div>
           <div
-            className="row"
-            style={{ paddingTop: "15vh", paddingBottom: "10vh" }}
+            className='row'
+            style={{ paddingTop: '15vh', paddingBottom: '10vh' }}
           >
             <div className="col-sm-6 retail-service">
               <img
@@ -89,38 +89,39 @@ function Pharmacetical() {
           </div>
         </div>
       </div>
-      <div style={{ backgroundColor: "#F6F6EF" }}>
-        <h2 style={{ textAlign: "center", padding: "7%" }}>Related Markets</h2>
-        <div className="container">
+      <div style={{ backgroundColor: '#F6F6EF' }}>
+        <h2 style={{ textAlign: 'center', padding: '7%' }}>Related Markets</h2>
+        <div className='container'>
           <div
-            className="row"
+            className='row'
             style={{
-              paddingLeft: "7%",
-              paddingRight: "7%",
-              paddingBottom: "7%",
+              paddingLeft: '7%',
+              paddingRight: '7%',
+              paddingBottom: '7%',
             }}
           >
-            <div className="col-sm-6">
+            <div className='col-sm-6'>
               <img
                 src={boot}
                 className="boot"
                 alt="boot"
                 style={{ marginBottom: "20px", width: "100%" }}
               />
-              <p className="feature-bold-text">Retail/Luxury</p>
-              <p className="feature-small-text">
+              <p className='feature-bold-text'>Retail/Luxury</p>
+              <p className='feature-small-text'>
                 Unique Consumer Experiences <br /> Means Better Brand Outlook.
               </p>
             </div>
-            <div className="col-sm-6">
+            <div className='col-sm-6'>
               <img
                 src={spin}
                 className="spin"
                 alt="spin"
                 style={{ marginBottom: "20px", width: "100%" }}
+
               />
-              <p className="feature-bold-text">Engineering</p>
-              <p className="feature-small-text">
+              <p className='feature-bold-text'>Engineering</p>
+              <p className='feature-small-text'>
                 From easier access to technical information <br />
                 to better production lead-time.
               </p>

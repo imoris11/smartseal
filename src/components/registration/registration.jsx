@@ -8,7 +8,7 @@ export default function Registration() {
     <div className='registration'>
       <div className='container'>
         <div className={'row center'}>
-          <div className={'col-md-4'}>
+          <div className='col-sm-12 col-sm-6 col-md-6'>
             <h1>Digital Registration & Chain of Custody</h1>
             <p>
               Product registration builds brand loyalty and is the basis of a
@@ -22,7 +22,7 @@ export default function Registration() {
             </p>
           </div>
 
-          <div className={'col-md-7'} style={{ position: 'relative' }}>
+          <div className={'col-sm-12 col-sm-6 col-md-6 registration-img'}>
             <img src={registration} alt='' />
             <img src={chain} alt='' className='floating-img' />
           </div>
