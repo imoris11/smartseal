@@ -1,66 +1,69 @@
 .footer {
-    background-color: #193e50;
-    color: white;
-    font-size: 16px;
-    padding-top: 80px;
-    padding-bottom: 50px;
+  background-color: #193e50;
+  color: white;
+  font-size: 16px;
+  padding-top: 10vh;
+  padding-bottom: 7vh;
 }
-.center{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 30px 20px 30px;
+
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 30px 30px 20px 30px; */
 }
-.right{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
-.footer-img{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding-left: 35px;
+
+.footer-img {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 35px;
 }
-.seal{
-    transform: scale(0.95);
+.seal {
+  transform: scale(0.95);
 }
 
 .footer-text {
-    padding-top: 20px;
-    margin-bottom: 20px;
+  padding-top: 5vh;
+  margin-bottom: 5vh;
 }
-.footer-text-single{
-    margin-top: 15px;
-    margin-bottom: 15px;
+.footer-text-single {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
-.footer-text-tag{
-    margin-top: 20px;
-    margin-bottom: 20px;
+.footer-text-tag {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-p.footer-text-tag a{
-    color: white;
-    font-size: 16px;
-    font-weight: lighter;
+p.footer-text-tag a {
+  color: white;
+  font-size: 16px;
+  font-weight: lighter;
 }
-p.footer-text-tag a:hover{
-    color: white;
-    text-decoration: none;
+p.footer-text-tag a:hover {
+  color: white;
+  text-decoration: none;
 }
 .footer-icons {
-   display: flex;
-    justify-content: center;
-    margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
-@media screen and (max-width:500px){
-    .footer {
-        background-color: #193e50;
-        color: white;
-        font-size: 16px;
-        padding: 45px 25px;
-    }
-    .footer-img{
-        display: none;
-    }
+@media screen and (max-width: 500px) {
+  .footer {
+    background-color: #193e50;
+    color: white;
+    font-size: 16px;
+    padding: 45px 25px;
+  }
+  .footer-img {
+    display: none;
+  }
 }

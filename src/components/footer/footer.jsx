@@ -40,7 +40,7 @@ function Footer() {
                   <Link to='/blog'>Blog</Link>
                 </p>
               </div>
-              <div className='col-xs-6 col-sm-3 col-md-4 footer-text-single'>
+              <div className='col-xs-8 col-sm-3 col-md-4 footer-text-single'>
                 <b>Policy</b>
                 <p className='footer-text-tag'>
                   <Link to='/privacypolicy'>Privacy Policy</Link>
