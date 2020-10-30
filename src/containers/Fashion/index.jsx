@@ -1,19 +1,19 @@
-import React from "react";
-import better from "../../Assets/images/better-serve-customers 1.png";
-import restore from "../../Assets/images/restore.png";
-import support from "../../Assets/images/support.png";
-import product from "../../Assets/images/prouduct-interraction.png";
-import medicine from "../../static/img/medicine.png";
-import spin from "../../static/img/e.png";
-import TellUs from "../../reuseables/tell-us";
+import React from 'react';
+import better from '../../static/icon/efficiency.png';
+import restore from '../../static/icon/restore.png';
+import support from '../../static/icon/support.png';
+import product from '../../static/img/capsules.png';
+import medicine from '../../static/img/medicine.png';
+import spin from '../../static/img/engineering.png';
+import TellUs from '../../reuseables/tell-us';
 
 function Fashion() {
   return (
     <div>
-      <div className="fashion-header">
-        <div className="container">
-          <div className="row center" style={{ paddingTop: "40vh" }}>
-            <div className="col fashion-text text-white">
+      <div className='fashion-header'>
+        <div className='container'>
+          <div className='row center' style={{ paddingTop: '40vh' }}>
+            <div className='col fashion-text text-white'>
               <h1>Retail/Luxury</h1>
               <p>
                 Unique Consumer Experiences <br />
@@ -23,11 +23,11 @@ function Fashion() {
           </div>
         </div>
       </div>
-      <div className=" container">
-        <div className="row center" style={{ paddingTop: "10vh" }}>
-          <div className="row">
-            <div className="col-sm-6 retail-service">
-              <img src={better} className="better" alt="better" />
+      <div className=' container'>
+        <div className='row center' style={{ paddingTop: '10vh' }}>
+          <div className='row'>
+            <div className='col-sm-6 retail-service'>
+              <img src={better} className='better' alt='better' />
               <h2>Better Serve Your Customers</h2>
               <p>
                 Giving your product buyers a way to prove <br /> ownership
@@ -37,8 +37,8 @@ function Fashion() {
                 or stolen
               </p>
             </div>
-            <div className="col-sm-6 retail-service">
-              <img src={restore} className="restore" alt="restore" />
+            <div className='col-sm-6 retail-service'>
+              <img src={restore} className='restore' alt='restore' />
               <h2>Restore Brand Identity</h2>
               <p>
                 A highly encrypted and embedded label <br /> protects your
@@ -50,11 +50,11 @@ function Fashion() {
             </div>
           </div>
           <div
-            className="row"
-            style={{ paddingTop: "15vh", paddingBottom: "10vh" }}
+            className='row'
+            style={{ paddingTop: '15vh', paddingBottom: '10vh' }}
           >
-            <div className="col-sm-6 retail-service">
-              <img src={product} className="product" alt="product" />
+            <div className='col-sm-6 retail-service'>
+              <img src={product} className='product' alt='product' />
               <h2>Product Interaction</h2>
               <p>
                 Our technology provides your brand with an easy <br /> way to
@@ -65,8 +65,8 @@ function Fashion() {
                 promotions and cross-selling <br /> opportunities.
               </p>
             </div>
-            <div className="col-sm-6 retail-service">
-              <img src={support} className="support" alt="support" />
+            <div className='col-sm-6 retail-service'>
+              <img src={support} className='support' alt='support' />
               <h2>Support Sustainability</h2>
               <p>
                 Your brand can better enable initiatives that <br /> increases
@@ -76,38 +76,38 @@ function Fashion() {
           </div>
         </div>
       </div>
-      <div style={{ backgroundColor: "#F6F6EF" }}>
-        <h2 style={{ textAlign: "center", padding: "7%" }}>Related Markets </h2>
-        <div className="container">
+      <div style={{ backgroundColor: '#F6F6EF' }}>
+        <h2 style={{ textAlign: 'center', padding: '7%' }}>Related Markets </h2>
+        <div className='container'>
           <div
-            className="row"
+            className='row'
             style={{
-              paddingLeft: "7%",
-              paddingRight: "7%",
-              paddingBottom: "7%",
+              paddingLeft: '7%',
+              paddingRight: '7%',
+              paddingBottom: '7%',
             }}
           >
-            <div className="col-sm-6">
+            <div className='col-sm-6'>
               <img
                 src={medicine}
-                className="medicine"
-                alt="medicine"
-                style={{ marginBottom: "20px" }}
+                className='medicine'
+                alt='medicine'
+                style={{ marginBottom: '20px' }}
               />
-              <p className="feature-bold-text">Retail/Luxury</p>
-              <p className="feature-small-text">
+              <p className='feature-bold-text'>Retail/Luxury</p>
+              <p className='feature-small-text'>
                 Unique Consumer Experiences <br /> Means Better Brand Outlook.
               </p>
             </div>
-            <div className="col-sm-6">
+            <div className='col-sm-6'>
               <img
                 src={spin}
-                className="spin"
-                alt="spin"
-                style={{ marginBottom: "20px" }}
+                className='spin'
+                alt='spin'
+                style={{ marginBottom: '20px' }}
               />
-              <p className="feature-bold-text">Engineering</p>
-              <p className="feature-small-text">
+              <p className='feature-bold-text'>Engineering</p>
+              <p className='feature-small-text'>
                 From easier access to technical information <br />
                 to better production lead-time.
               </p>

@@ -1,43 +1,43 @@
-import React from "react";
-import pills from "../../Assets/images/Thinkstock2.png";
-import TellUs from "../../reuseables/tell-us";
-import Latest from "../../reuseables/latest-story";
-import facebook from "../../Assets/images/facebook.png";
-import linkedin from "../../Assets/images/linkedin.png";
-import twitter from "../../Assets/images/twitter-social-logotype 1.png";
+import React from 'react';
+import pills from '../../static/img/pills.png';
+import TellUs from '../../reuseables/tell-us';
+import Latest from '../../reuseables/latest-story';
+import facebook from '../../static/icon/facebook.png';
+import linkedin from '../../static/icon/linkedin.png';
+import twitter from '../../static/icon/twitter.png';
 
 function Features() {
   return (
     <div>
-      <div className="blog-post-header">
-        <div className="container">
-          <div className="row " style={{ paddingTop: "20vh" }}>
+      <div className='blog-post-header'>
+        <div className='container'>
+          <div className='row ' style={{ paddingTop: '20vh' }}>
             <div>
-              <div style={{ paddingTop: "8vh", marginLeft: "2%" }}>
-                <div className="col fashion-text text-white">
-                  <h1 style={{ fontSize: "48px", fontWeight: "500" }}>
+              <div style={{ paddingTop: '8vh', marginLeft: '2%' }}>
+                <div className='col fashion-text text-white'>
+                  <h1 style={{ fontSize: '48px', fontWeight: '500' }}>
                     Medicine and Up to date <br /> values in authenticity.
                   </h1>
-                  <div className="row">
-                    <div className="col-sm-6">
-                      <p style={{ fontSize: "16px", color: "#FFFAD0" }}>
+                  <div className='row'>
+                    <div className='col-sm-6'>
+                      <p style={{ fontSize: '16px', color: '#FFFAD0' }}>
                         By: SmartSeal . October 9 2020
                       </p>
                     </div>
-                    <div className="col-sm-6 ">
-                      <div className="row">
-                        <div className="col-sm-5"></div>
-                        <div className="col-sm-3">
-                          <p style={{ fontSize: "16px", color: "#FFFAD0" }}>
+                    <div className='col-sm-6 '>
+                      <div className='row'>
+                        <div className='col-sm-5'></div>
+                        <div className='col-sm-3'>
+                          <p style={{ fontSize: '16px', color: '#FFFAD0' }}>
                             Share
                           </p>
                           <div>
-                            <img src={facebook} alt="facebook" /> &nbsp;
-                            <img src={linkedin} alt="linkedin" /> &nbsp;
-                            <img src={twitter} alt="twitter" />{" "}
+                            <img src={facebook} alt='facebook' /> &nbsp;
+                            <img src={linkedin} alt='linkedin' /> &nbsp;
+                            <img src={twitter} alt='twitter' />{' '}
                           </div>
                         </div>
-                        <div className="col-sm-4"></div>
+                        <div className='col-sm-4'></div>
                       </div>
                     </div>
                   </div>
@@ -47,21 +47,21 @@ function Features() {
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className='container'>
         <div
-          className="row rectangles-image "
-          style={{ backgroundColor: "red" }}
+          className='row rectangles-image '
+          style={{ backgroundColor: 'red' }}
         >
-          <img src={pills} className="blog-pills" alt="pills" />
+          <img src={pills} className='blog-pills' alt='pills' />
         </div>
       </div>
-      <div className="container">
+      <div className='container'>
         <br />
         <br />
         <h2>Medicine and Up to date values in authenticity.</h2>
         <br /> <br />
-        <p style={{ fontSize: "16px", fontWeight: "400" }}>
-          {" "}
+        <p style={{ fontSize: '16px', fontWeight: '400' }}>
+          {' '}
           But I must explain to You how all this mistaken idea of denouncing
           pleasure and praising pain was born and I will give.. You a complete
           account of the system, and expound the actual teachings of the great
@@ -77,7 +77,7 @@ function Features() {
           right to find fault with a man who chooses to enjoy a pleasure that
           has no annoying consequences, or one who avoids a pain that produces
           no resultant pleasure?"But I must explain to you how all this mistaken
-          idea of denouncing pleasure and praising pain was born and I will give{" "}
+          idea of denouncing pleasure and praising pain was born and I will give{' '}
         </p>
         <br />
         <h2>
@@ -87,7 +87,7 @@ function Features() {
         <br />
         <br />
         <p
-          style={{ fontSize: "16px", fontWeight: "400", paddingBottom: "10%" }}
+          style={{ fontSize: '16px', fontWeight: '400', paddingBottom: '10%' }}
         >
           You a complete account of the system, and expound the actual teachings
           of the great explorer of the truth, the master-builder of human
@@ -119,8 +119,8 @@ function Features() {
         </p>
       </div>
 
-      <div className="container-fluid" style={{ backgroundColor: "#FFFCE3" }}>
-        <h2 style={{ textAlign: "center", padding: "5%" }}>Related Posts</h2>
+      <div className='container-fluid' style={{ backgroundColor: '#FFFCE3' }}>
+        <h2 style={{ textAlign: 'center', padding: '5%' }}>Related Posts</h2>
         <Latest />
       </div>
 
