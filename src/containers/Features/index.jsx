@@ -21,9 +21,10 @@ function Features() {
           </div>
         </div>
       </div>
-      <div className='container-fluid'>
-        <div style={{ backgroundColor: 'F6F6EF' }}>
-          <h2 style={{ textAlign: 'center', padding: '7%' }}>
+
+      <div className="container-fluid">
+        <div style={{ backgroundColor: "F6F6EF" }}>
+          <h2 style={{ textAlign: "center", padding: "7%" }}>
             Featured Stories
           </h2>
           <div
@@ -37,14 +38,12 @@ function Features() {
             <div className='col-sm-4'>
               <img
                 src={brand}
-                className='brand'
-                alt='brand'
-                style={{ marginBottom: '20px' }}
+                className="brand img-resize"
+                alt="brand"
+                style={{ marginBottom: "20px", width: "100%" }}
               />
-              <span className='feature-bold-text'>
-                Digital Product Identity
-              </span>
-              <p className='feature-small-text'>
+              <p className="feature-bold-text">Digital Product Identity</p>
+              <p className="feature-small-text">
                 Your customers can further trust and own a <br />
                 relationship with your brand by easily verifying
                 <br /> that your product isn’t forged.
@@ -53,9 +52,9 @@ function Features() {
             <div className='col-sm-4'>
               <img
                 src={data}
-                className='data'
-                alt='data'
-                style={{ marginBottom: '20px' }}
+                className="data img-resize"
+                alt="data"
+                style={{ marginBottom: "20px", width: "100%" }}
               />
               <p className='feature-bold-text'>Data Visualization</p>
               <p className='feature-small-text'>
@@ -70,9 +69,10 @@ function Features() {
             <div className='col-sm-4'>
               <img
                 src={safety}
-                className='safety'
-                alt='safety'
-                style={{ marginBottom: '20px' }}
+                className="safety "
+                alt="safety"
+                style={{ marginBottom: "20px", width: "100%" }}
+
               />
               <p className='feature-bold-text'>Guaranteed Product Security</p>
               <p className='feature-small-text'>
@@ -94,9 +94,10 @@ function Features() {
               <div className='col-sm-6'>
                 <img
                   src={tag}
-                  className='tag'
-                  alt='tag'
-                  style={{ marginBottom: '20px' }}
+                  className="tag "
+                  alt="tag"
+                  style={{ marginBottom: "20px", width: "100%" }}
+
                 />
                 <p className='feature-bold-text'>
                   Drop-in Scripts For Your <br />
@@ -110,9 +111,10 @@ function Features() {
               <div className='col-sm-6'>
                 <img
                   src={api}
-                  className='api'
-                  alt='api'
-                  style={{ marginBottom: '20px' }}
+                  className="api "
+                  alt="api"
+                  style={{ marginBottom: "20px", width: "100%" }}
+
                 />
                 <p className='feature-bold-text'>
                   Full Featured API For Easy <br /> Integration To Our Database
@@ -129,9 +131,10 @@ function Features() {
           </div>
         </div>
       </div>
-      <div className='container-fluid'>
-        <div style={{ backgroundColor: 'F6F6EF' }}>
-          <h2 style={{ textAlign: 'center', padding: '5%' }}>
+      <div className="container-fluid">
+        <div style={{ backgroundColor: "F6F6EF" }}>
+          <h2 style={{ textAlign: "center", padding: "7%" }}>
+
             We Build Solutions for...
           </h2>
           <div
@@ -145,9 +148,11 @@ function Features() {
             <div className='col-sm-4'>
               <img
                 src={boot}
-                className='boot'
-                alt='boot'
-                style={{ marginBottom: '20px' }}
+
+                className="boot "
+                alt="boot"
+                style={{ marginBottom: "20px", width: "100%" }}
+
               />
               <span className='feature-bold-text'>Retail/Luxury</span>
               <p className='feature-small-text'>
@@ -157,9 +162,11 @@ function Features() {
             <div className='col-sm-4'>
               <img
                 src={medicine}
-                className='medicine'
-                alt='medicine'
-                style={{ marginBottom: '20px' }}
+
+                className="medicine "
+                alt="medicine"
+                style={{ marginBottom: "20px", width: "100%" }}
+
               />
               <p className='feature-bold-text'>Pharmaceutical</p>
               <p className='feature-small-text'>
@@ -169,9 +176,11 @@ function Features() {
             <div className='col-sm-4'>
               <img
                 src={engineering}
-                className='engineering'
-                alt='engineering'
-                style={{ marginBottom: '20px' }}
+
+                className="engineering "
+                alt="engineering"
+                style={{ marginBottom: "20px", width: "100%" }}
+
               />
               <span className='feature-bold-text'>Engineering</span>
               <p className='feature-small-text'>
@@ -182,6 +191,7 @@ function Features() {
           </div>
         </div>
       </div>
+
       <TellUs />
     </div>
   );

@@ -23,19 +23,22 @@ function About() {
         </div>
       </div>
 
-      <div className='container '>
-        <div className='row rectangles'>
-          <div className='row center'>
-            <div className='col-sm-4 rectangle-box-left'>
-              <img src={simplicity} className='simplicity' alt='simplicity' />
+      <div className="container ">
+        <div className="row rectangles">
+          <div className="row center">
+            <div className="col-sm-4 rectangle-box-left center ">
+              <img src={simplicity} className="simplicity" alt="simplicity" />
+
               <h3>Simplicity</h3>
               <p>
                 Our solution is turnkey, clear <br />
                 and is easy to implement
               </p>
             </div>
-            <div className='col-sm-4 rectangle-box-right'>
-              <img src={security} className='security' alt='security' />
+
+            <div className="col-sm-4 rectangle-box-right ">
+              <img src={security} className="security" alt="security" />
+
               <h3>Security</h3>
               <p>
                 Our diligent process always results <br /> in your product’s
