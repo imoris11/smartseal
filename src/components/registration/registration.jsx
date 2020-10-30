@@ -1,14 +1,14 @@
-import React from "react";
-import chain from "../../static/img/chain-of-study.png";
-import registration from "../../static/img/product-registration.png";
-import "./registration.css";
+import React from 'react';
+import chain from '../../static/img/chain-of-study.png';
+import registration from '../../static/img/product-registration.png';
+import './registration.css';
 
 export default function Registration() {
   return (
-    <div className="registration">
-      <div className="container">
-        <div className={"row center"}>
-          <div className={"col-md-4"}>
+    <div className='registration'>
+      <div className='container'>
+        <div className={'row center'}>
+          <div className='col-sm-12 col-sm-6 col-md-6'>
             <h1>Digital Registration & Chain of Custody</h1>
             <p>
               Product registration builds brand loyalty and is the basis of a
@@ -22,9 +22,9 @@ export default function Registration() {
             </p>
           </div>
 
-          <div className={"col-md-7"} style={{ position: "relative" }}>
-            <img src={registration} alt="" />
-            <img src={chain} alt="" className="floating-img" />
+          <div className={'col-sm-12 col-sm-6 col-md-6 registration-img'}>
+            <img src={registration} alt='' />
+            <img src={chain} alt='' className='floating-img' />
           </div>
         </div>
       </div>

@@ -10,12 +10,12 @@ function Footer() {
     <div className='footer'>
       <div className='container'>
         <div className='row center'>
-          <div className='col-md-3 footer-img d-sm-none'>
+          <div className='d-sm-none col-md-3 footer-img d-sm-none'>
             <img src={seal} className='seal' alt='seal' />
           </div>
           <div className='col-md-9 footer-text'>
             <div className='row'>
-              <div className='col-xs-6 col-sm-3 col-md-4 footer-text-single'>
+              <div className='col-xs-6 col-sm-4 col-md-4 footer-text-single'>
                 <b>Market</b>
                 <p className='footer-text-tag'>
                   <Link to='/fashion'>Fashion</Link>
@@ -28,7 +28,7 @@ function Footer() {
                   <Link to='/pharmaceutical'>Pharmacetical</Link>
                 </p>
               </div>
-              <div className='col-xs-6 col-sm-3 col-md-4 footer-text-single'>
+              <div className='col-xs-6 col-sm-4 col-md-4 footer-text-single'>
                 <b>Information</b>
                 <p className='footer-text-tag'>
                   <Link to='/about'>About us</Link>
@@ -40,7 +40,7 @@ function Footer() {
                   <Link to='/blog'>Blog</Link>
                 </p>
               </div>
-              <div className='col-xs-8 col-sm-3 col-md-4 footer-text-single'>
+              <div className='col-xs-8 col-sm-4 col-md-4 footer-text-single'>
                 <b>Policy</b>
                 <p className='footer-text-tag'>
                   <Link to='/privacypolicy'>Privacy Policy</Link>

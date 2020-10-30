@@ -1,3 +1,36 @@
 .registration {
   min-height: 100vh;
+  padding-top: 20vh;
+  padding-bottom: 10vh;
+  background: #008678;
+  color: white;
+}
+.registration h1 {
+  font-size: 40px;
+}
+.registration p {
+  font: 16px;
+  font-weight: bold;
+}
+.registration-img {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10vh;
+}
+.registration .registration-img img {
+  max-width: 100%;
+}
+.registration-img .floating-img {
+  position: absolute;
+  z-index: 20;
+  width: max-content;
+  left: -5%;
+  top: 45%;
+}
+
+@media screen and (max-width: 540px) {
+  .registration-img .floating-img {
+    top: 50%;
+  }
 }
