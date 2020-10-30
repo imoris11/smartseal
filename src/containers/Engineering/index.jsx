@@ -27,9 +27,14 @@ function Engineering() {
         <div className="row center" style={{ paddingTop: "10vh" }}>
           <div className="row">
             <div className="col-sm-6 retail-service">
-              <img src={support} className="support" alt="support" />
-              <h2>Support Your Value Chain</h2>
-              <p>
+              <img
+                src={support}
+                className="support"
+                alt="support"
+                style={{ marginLeft: "40%" }}
+              />
+              <h2 style={{ textAlign: "center" }}>Support Your Value Chain</h2>
+              <p style={{ textAlign: "center" }}>
                 Smartseal has created an authentication layer <br /> that
                 securely and easily gets important <br /> information to
                 manufacturers and maintenance
@@ -37,9 +42,14 @@ function Engineering() {
               </p>
             </div>
             <div className="col-sm-6 retail-service">
-              <img src={industry} className="industry" alt="industry" />
-              <h2>Industry Trust. No F.O.D</h2>
-              <p>
+              <img
+                src={industry}
+                className="industry"
+                alt="industry"
+                style={{ marginLeft: "40%" }}
+              />
+              <h2 style={{ textAlign: "center" }}>Industry Trust. No F.O.D</h2>
+              <p style={{ textAlign: "center" }}>
                 Your products have a standard that has to be <br /> met. You now
                 have a platform that to enable a <br />
                 chain of custody protocol to communicate this
@@ -52,9 +62,14 @@ function Engineering() {
             style={{ paddingTop: "15vh", paddingBottom: "10vh" }}
           >
             <div className="col-sm-6 retail-service">
-              <img src={tap} className="tap" alt="tap" />
-              <h2>Information Is A Tap Away</h2>
-              <p>
+              <img
+                src={tap}
+                className="tap"
+                alt="tap"
+                style={{ marginLeft: "40%" }}
+              />
+              <h2 style={{ textAlign: "center" }}>Information Is A Tap Away</h2>
+              <p style={{ textAlign: "center" }}>
                 We enable and can connect to your internal <br /> supply chain
                 management consoles. This opens
                 <br /> up a world where technical schematics, material <br />
@@ -64,9 +79,14 @@ function Engineering() {
               </p>
             </div>
             <div className="col-sm-6 retail-service">
-              <img src={trace} className="trace" alt="trace" />
-              <h2>Component Traceability</h2>
-              <p>
+              <img
+                src={trace}
+                className="trace"
+                alt="trace"
+                style={{ marginLeft: "40%" }}
+              />
+              <h2 style={{ textAlign: "center" }}>Component Traceability</h2>
+              <p style={{ textAlign: "center" }}>
                 Your customers can trace origin points to prove <br /> no
                 illegal production overruns or counterfeits.
                 <br /> The durability data here strengthens your
@@ -92,7 +112,7 @@ function Engineering() {
                 src={boot}
                 className="boot"
                 alt="boot"
-                style={{ marginBottom: "20px" }}
+                style={{ marginBottom: "20px", width: "100%" }}
               />
               <p className="feature-bold-text">Retail/Luxury</p>
               <p className="feature-small-text">
@@ -104,7 +124,7 @@ function Engineering() {
                 src={medicine}
                 className="medicine"
                 alt="medicine"
-                style={{ marginBottom: "20px" }}
+                style={{ marginBottom: "20px", width: "100%" }}
               />
               <p className="feature-bold-text">Pharmaceutical</p>
               <p className="feature-small-text">

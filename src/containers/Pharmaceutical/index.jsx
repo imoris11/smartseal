@@ -23,12 +23,17 @@ function Pharmacetical() {
         </div>
       </div>
       <div className=" container">
-        <div className="row center" style={{ paddingTop: "10vh" }}>
+        <div className="row " style={{ paddingTop: "10vh" }}>
           <div className="row">
-            <div className="col-sm-6 retail-service">
-              <img src={lifecycle} className="lifecycle" alt="lifecycle" />
-              <h2>Lifecycle Service</h2>
-              <p>
+            <div className="col-sm-6 retail-service ">
+              <img
+                src={lifecycle}
+                className="lifecycle "
+                alt="lifecycle"
+                style={{ marginLeft: "40%" }}
+              />
+              <h2 style={{ textAlign: "center" }}>Lifecycle Service</h2>
+              <p style={{ textAlign: "center" }}>
                 Throughout a products’ existence, our tags serve <br /> as a
                 data point for a customized journey that <br /> could lead to
                 notifications on medication <br /> management with the end
@@ -36,9 +41,14 @@ function Pharmacetical() {
               </p>
             </div>
             <div className="col-sm-6 retail-service">
-              <img src={promote} className="promote" alt="promote" />
-              <h2>Promote Brand Trust</h2>
-              <p>
+              <img
+                src={promote}
+                className="promote"
+                alt="promote"
+                style={{ marginLeft: "40%" }}
+              />
+              <h2 style={{ textAlign: "center" }}>Promote Brand Trust</h2>
+              <p style={{ textAlign: "center" }}>
                 Reducing the chance that an end consumer can <br />
                 take an illegally made product greatly reduces <br /> the money
                 spent on defending malpractice <br /> lawsuits.
@@ -50,18 +60,28 @@ function Pharmacetical() {
             style={{ paddingTop: "15vh", paddingBottom: "10vh" }}
           >
             <div className="col-sm-6 retail-service">
-              <img src={recycle} className="recycle" alt="recycle" />
-              <h2>Solve Recyclability</h2>
-              <p>
+              <img
+                src={recycle}
+                className="recycle"
+                alt="recycle"
+                style={{ marginLeft: "40%" }}
+              />
+              <h2 style={{ textAlign: "center" }}>Solve Recyclability</h2>
+              <p style={{ textAlign: "center" }}>
                 A direct interaction with your end customers <br /> greatly
                 enables sustainability initiatives such as a <br /> viable
                 refill program or other re-distribution <br /> campaigns.
               </p>
             </div>
             <div className="col-sm-6 retail-service">
-              <img src={info} className="info" alt="info" />
-              <h2>Granular Telehealth</h2>
-              <p>
+              <img
+                src={info}
+                className="info"
+                alt="info"
+                style={{ marginLeft: "40%" }}
+              />
+              <h2 style={{ textAlign: "center" }}>Granular Telehealth</h2>
+              <p style={{ textAlign: "center" }}>
                 The data your brand obtains gives more <br /> nuanced compliant
                 information that ties <br /> to relevant medical history
               </p>
@@ -85,7 +105,7 @@ function Pharmacetical() {
                 src={boot}
                 className="boot"
                 alt="boot"
-                style={{ marginBottom: "20px" }}
+                style={{ marginBottom: "20px", width: "100%" }}
               />
               <p className="feature-bold-text">Retail/Luxury</p>
               <p className="feature-small-text">
@@ -97,7 +117,7 @@ function Pharmacetical() {
                 src={spin}
                 className="spin"
                 alt="spin"
-                style={{ marginBottom: "20px" }}
+                style={{ marginBottom: "20px", width: "100%" }}
               />
               <p className="feature-bold-text">Engineering</p>
               <p className="feature-small-text">

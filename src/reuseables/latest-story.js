@@ -16,7 +16,7 @@ function Latest() {
           src={authentic}
           className="authentic"
           alt="authentic"
-          style={{ marginBottom: "20px" }}
+          style={{ marginBottom: "20px", width: "100%" }}
         />
         <span className="feature-bold-text">
           Importance Of Product <br /> Authentication
@@ -30,7 +30,7 @@ function Latest() {
           src={parts}
           className="parts"
           alt="parts"
-          style={{ marginBottom: "20px" }}
+          style={{ marginBottom: "20px", width: "100%" }}
         />
         <p className="feature-bold-text">
           Authenticated Engineering products and its values
@@ -44,7 +44,7 @@ function Latest() {
           src={parts}
           className="parts"
           alt="parts"
-          style={{ marginBottom: "20px" }}
+          style={{ marginBottom: "20px", width: "100%" }}
         />
         <p className="feature-bold-text">
           Medicine and Up to date values in authenticity.

@@ -338,3 +338,7 @@ input[type="submit"] {
   width: 1150px;
   background-size: cover;
 }
+.img-resize {
+  width: "100%";
+  height: "auto";
+}

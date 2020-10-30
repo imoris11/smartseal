@@ -26,7 +26,7 @@ function About() {
       <div className="container ">
         <div className="row rectangles">
           <div className="row center">
-            <div className="col-sm-4 rectangle-box-left">
+            <div className="col-sm-4 rectangle-box-left center ">
               <img src={simplicity} className="simplicity" alt="simplicity" />
               <h3>Simplicity</h3>
               <p>
@@ -34,7 +34,7 @@ function About() {
                 and is easy to implement
               </p>
             </div>
-            <div className="col-sm-4 rectangle-box-right">
+            <div className="col-sm-4 rectangle-box-right ">
               <img src={security} className="security" alt="security" />
               <h3>Security</h3>
               <p>

@@ -27,9 +27,16 @@ function Fashion() {
         <div className="row center" style={{ paddingTop: "10vh" }}>
           <div className="row">
             <div className="col-sm-6 retail-service">
-              <img src={better} className="better" alt="better" />
-              <h2>Better Serve Your Customers</h2>
-              <p>
+              <img
+                src={better}
+                className="better"
+                alt="better"
+                style={{ marginLeft: "40%" }}
+              />
+              <h2 style={{ textAlign: "center" }}>
+                Better Serve Your Customers
+              </h2>
+              <p style={{ textAlign: "center" }}>
                 Giving your product buyers a way to prove <br /> ownership
                 allows for higher quality post sale <br /> assistance. As an
                 example, your customers can <br /> report their verified
@@ -38,9 +45,14 @@ function Fashion() {
               </p>
             </div>
             <div className="col-sm-6 retail-service">
-              <img src={restore} className="restore" alt="restore" />
-              <h2>Restore Brand Identity</h2>
-              <p>
+              <img
+                src={restore}
+                className="restore"
+                alt="restore"
+                style={{ marginLeft: "40%" }}
+              />
+              <h2 style={{ textAlign: "center" }}>Restore Brand Identity</h2>
+              <p style={{ textAlign: "center" }}>
                 A highly encrypted and embedded label <br /> protects your
                 brand’s promise. Customers build <br /> more trust as they learn
                 about each step of your <br /> product development or engage
@@ -54,9 +66,14 @@ function Fashion() {
             style={{ paddingTop: "15vh", paddingBottom: "10vh" }}
           >
             <div className="col-sm-6 retail-service">
-              <img src={product} className="product" alt="product" />
-              <h2>Product Interaction</h2>
-              <p>
+              <img
+                src={product}
+                className="product"
+                alt="product"
+                style={{ marginLeft: "40%" }}
+              />
+              <h2 style={{ textAlign: "center" }}>Product Interaction</h2>
+              <p style={{ textAlign: "center" }}>
                 Our technology provides your brand with an easy <br /> way to
                 interface with social media platforms to <br />
                 further build a community and facilitate <br /> customer
@@ -66,9 +83,14 @@ function Fashion() {
               </p>
             </div>
             <div className="col-sm-6 retail-service">
-              <img src={support} className="support" alt="support" />
-              <h2>Support Sustainability</h2>
-              <p>
+              <img
+                src={support}
+                className="support"
+                alt="support"
+                style={{ marginLeft: "40%" }}
+              />
+              <h2 style={{ textAlign: "center" }}>Support Sustainability</h2>
+              <p style={{ textAlign: "center" }}>
                 Your brand can better enable initiatives that <br /> increases
                 awareness and recyclability
               </p>
@@ -92,7 +114,7 @@ function Fashion() {
                 src={medicine}
                 className="medicine"
                 alt="medicine"
-                style={{ marginBottom: "20px" }}
+                style={{ marginBottom: "20px", width: "100%" }}
               />
               <p className="feature-bold-text">Retail/Luxury</p>
               <p className="feature-small-text">
@@ -104,7 +126,7 @@ function Fashion() {
                 src={spin}
                 className="spin"
                 alt="spin"
-                style={{ marginBottom: "20px" }}
+                style={{ marginBottom: "20px", width: "100%" }}
               />
               <p className="feature-bold-text">Engineering</p>
               <p className="feature-small-text">
