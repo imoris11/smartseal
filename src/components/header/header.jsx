@@ -53,7 +53,6 @@ export default function Header() {
       let scrolled = document.scrollingElement.scrollTop;
       let contentHeight = document.body.clientHeight;
       let percentage = (scrolled / contentHeight) * 100;
-      let width = document.scrollingElement.clientWidth;
 
       if (scrolled >= 120) {
         if (scrollState !== 'amid') {
