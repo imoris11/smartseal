@@ -11,8 +11,8 @@ function Home() {
     <div className={'more'}>
       <Banner />
       <Experience />
-      <Registration />
       <Protection />
+      <Registration />
       <HowItWorks />
       <Stories />
     </div>

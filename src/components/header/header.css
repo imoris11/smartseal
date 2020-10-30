@@ -92,7 +92,7 @@
 }
 
 /*small screen*/
-@media only screen and (max-width: 420px) {
+@media screen and (max-width: 540px) {
   .navigation {
     padding: 5vh 5vw;
   }
@@ -128,4 +128,21 @@
 
 /*Medium Screens*/
 @media screen and (max-width: 760px) {
+  .navigation .nav-items {
+    display: none;
+  }
+  .menu-control-button {
+    display: inline;
+    background: transparent;
+    border: none;
+    padding: 2px 5px;
+    margin: 10px;
+  }
+  .contact-button {
+    font-size: 14px;
+    padding: 10px 20px;
+    width: 105px;
+    background: #3ac6b7;
+    margin-right: 20px;
+  }
 }

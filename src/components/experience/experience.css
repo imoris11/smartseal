@@ -1,3 +1,37 @@
 .experience {
   min-height: 100vh;
+  padding-top: 20vh;
+}
+.experience ul li {
+  display: relative;
+  margin: 5vh auto;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  text-justify: newspaper;
+  list-style-type: disc;
+  font-weight: bold;
+}
+li::before {
+  content: '';
+  height: 3px;
+  width: 22px;
+  background: rgb(43, 42, 42);
+  top: -20px;
+}
+.experience-img {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+.experience .experience-img img {
+  max-width: 70vw;
+}
+.experience-img .floating-img {
+  position: absolute;
+  z-index: 20;
+  width: max-content;
+  left: 0%;
+  top: 15%;
 }
