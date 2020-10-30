@@ -1,44 +1,16 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: Raleway, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.App-header {
-  background-image: url("./Assets/images/290-olive-oil-bottle-mockup\ 1.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-.nav-style {
-  background-color: transparent;
-  border-color: transparent;
-  color: green;
-
-  font-size: 18px;
-  font-weight: 900px;
-}
-.navbar-nav > li {
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-top: 50px;
-  color: white;
-}
-.margin-top {
-  margin-top: 49px;
-  font-size: 18px;
+img {
+  max-width: 50vw;
 }
 .contact-margin-top {
   margin-top: 60px;
@@ -61,26 +33,9 @@ code {
   height: 411.48px;
   top: 204px;
 }
-.footer {
-  background-color: #193e50;
-  color: white;
-  font-size: 20px;
-}
-.seal {
-  padding: 150px;
-}
-.footer-text {
-  padding-top: 150px;
-}
-.footer-text-tag {
-  margin-top: 20px;
-  font-size: 18px;
-}
-.footer-icons {
-  margin-bottom: 60px;
-}
+
 .fashion-header {
-  background-image: url("./Assets/images/retail2 1.png");
+  background-image: url('./static/img/retail-long.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -92,7 +47,7 @@ code {
 }
 
 .fashion-text > h1 {
-  font: Roboto Slab;
+  font-family: 'Roboto Slab', sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 50px;
@@ -164,7 +119,7 @@ code {
   margin-top: 12%;
 }
 .pharmacetical-header {
-  background-image: url("./Assets/images/medicine22\ 1.png");
+  background-image: url('./static/img/medicine-long.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -175,7 +130,7 @@ code {
   color: white;
 }
 .engineering-header {
-  background-image: url("./Assets/images/blade2\ 1.png");
+  background-image: url('./static/img/blade-long.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -186,7 +141,7 @@ code {
   color: white;
 }
 .contact-header {
-  background-image: url("./Assets/images/Asset\ 2\ 1.png");
+  background-image: url('./static/img/asset.png');
   background-color: #008678;
   background-repeat: no-repeat;
   background-size: cover;
@@ -231,7 +186,7 @@ code {
   /* display: flex;
   justify-content: space-between; */
 }
-input[type="text"],
+input[type='text'],
 select,
 textarea {
   width: 100%;
@@ -240,7 +195,7 @@ textarea {
   border-radius: 4px;
   resize: vertical;
 }
-input[type="submit"] {
+input[type='submit'] {
   background-color: #008678;
   color: white;
   padding: 12px 20px;
@@ -255,11 +210,11 @@ input[type="submit"] {
 }
 .about-text > h1 {
   font-size: 28px;
-  font-weight: 500px;
+  font-weight: 500;
   line-height: 36.93px;
 }
 .features-header {
-  background-image: url("./Assets/images/f2\ 1.png");
+  background-image: url('./static/img/book-long.png');
   background-color: #008678;
   background-repeat: no-repeat;
   background-size: cover;
@@ -291,7 +246,7 @@ input[type="submit"] {
   border-radius: 5px;
 }
 .blog-header {
-  background-image: url("./Assets/images/Rectangle 1.png");
+  background-image: url('static/img/Rectangle.png');
   background-color: #008678;
   background-repeat: no-repeat;
   background-size: cover;
@@ -315,7 +270,7 @@ input[type="submit"] {
   font-size: 18px;
 }
 .blog-post-header {
-  background-image: url("./Assets/images/Thinkstock2.png");
+  background-image: url('./static/img/pills-long.png');
   background: rgba(25, 62, 80, 0.81);
   background-repeat: no-repeat;
   background-size: cover;

@@ -1,5 +1,5 @@
 import React from 'react';
-import brand from '../../static/img/the-brand.png';
+import brand from '../../static/img/bottle.png';
 
 export default function HowItWorks() {
   return (

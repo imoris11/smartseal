@@ -1,24 +1,26 @@
-import seal from '../../Assets/images/Accent_Smart Seal_Guilloche_White 1.png';
-import facebook from '../../Assets/images/facebook.png';
-import linkedin from '../../Assets/images/linkedin.png';
-import twitter from '../../Assets/images/twitter-social-logotype 1.png';
+import seal from '../../static/img/logo-icon.png';
+import facebook from '../../static/icon/facebook.png';
+import linkedin from '../../static/icon/linkedin.png';
+import twitter from '../../static/icon/twitter.png';
 import { Link } from 'react-router-dom';
+import './footer.css';
 
 function Footer() {
   return (
     <div className='footer'>
       <div className='container'>
-        <div className='row'>
-          <div className='col-sm-4'>
+        <div className='row center'>
+          <div className='col-md-3 footer-img d-sm-none'>
             <img src={seal} className='seal' alt='seal' />
           </div>
-          <div className='col-sm-6 footer-text'>
+          <div className='col-md-9 footer-text'>
             <div className='row'>
-              <div className='col-sm-4'>
+              <div className='col-xs-6 col-sm-3 col-md-4 footer-text-single'>
                 <b>Market</b>
                 <p className='footer-text-tag'>
                   <Link to='/fashion'>Fashion</Link>
                 </p>
+
                 <p className='footer-text-tag'>
                   <Link to='/engineering'>Engineering</Link>
                 </p>
@@ -26,7 +28,7 @@ function Footer() {
                   <Link to='/pharmaceutical'>Pharmacetical</Link>
                 </p>
               </div>
-              <div className='col-sm-4'>
+              <div className='col-xs-6 col-sm-3 col-md-4 footer-text-single'>
                 <b>Information</b>
                 <p className='footer-text-tag'>
                   <Link to='/about'>About us</Link>
@@ -38,7 +40,7 @@ function Footer() {
                   <Link to='/blog'>Blog</Link>
                 </p>
               </div>
-              <div className='col-sm-4'>
+              <div className='col-xs-6 col-sm-3 col-md-4 footer-text-single'>
                 <b>Policy</b>
                 <p className='footer-text-tag'>
                   <Link to='/privacypolicy'>Privacy Policy</Link>
@@ -50,8 +52,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className='row'>
-          <div className='col-sm-8'></div>
+        <div className='row right'>
           <div className='col-sm-4 footer-icons'>
             <div>
               <img src={facebook} alt='facebook' /> &nbsp;

@@ -8,6 +8,11 @@
 # testing
 /coverage
 
+#IDE
+.idea
+.vscode
+
+
 # production
 /build
 
