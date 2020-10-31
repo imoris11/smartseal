@@ -37,6 +37,9 @@ export default function Stories() {
               <p>By: SmartSeal . October 9 2020</p>
             </div>
           </div>
+          <div className='col-xs-12 col-sm-12 col-md-12 center'>
+            <button className='explore-button'>Explore More</button>
+          </div>
         </div>
       </div>
     </div>
