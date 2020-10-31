@@ -24,3 +24,10 @@
 .stories .stories-img img {
   width: 100%;
 }
+.explore-button {
+  margin: 5vh auto;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  background: #3ac6b7;
+}

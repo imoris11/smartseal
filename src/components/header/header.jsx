@@ -120,7 +120,7 @@ export default function Header() {
           setScrollState('top');
         }
       }
-      if (percentage.toFixed(0) >= 85) {
+      if (percentage.toFixed(0) >= 80) {
         setBottom(true);
       } else setBottom(false);
     });
@@ -146,7 +146,7 @@ export default function Header() {
         >
           <img src={open ? close : menu} alt={''} />
         </button>
-        <Link className='brand-logo' href='/'>
+        <Link to='' className='brand-logo' href='/'>
           <img
             src={scrollState === 'top' ? logo : mobileLogo}
             alt={''}
