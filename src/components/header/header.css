@@ -90,7 +90,44 @@
   line-height: 21px;
   color: black;
 }
+.menu .menu-items .menu-item#dropdown {
+  cursor: pointer;
+}
+#mobile-market-dropdown .center {
+  margin: -10px;
+}
+#mobile-market-dropdown p {
+  font-weight: bold;
+  font-size: 10px;
+  padding-left: 3px;
+  color: black;
+}
+#desktop-market-dropdown {
+  display: flex;
+  padding: 5vh 5vw;
+  gap: 30px;
+}
+#desktop-market-dropdown .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
+  align-items: stretch;
+  width: 300px;
+  text-align: left;
+}
+#desktop-market-dropdown .item img {
+  width: 100%;
+}
+#desktop-market-dropdown .item p,
+#desktop-market-dropdown .item h4 {
+  color: black;
+}
+#desktop-market-dropdown a:hover,
+#desktop-market-dropdown a:hover {
+  color: black;
+  text-decoration: none;
+}
 /*small screen*/
 @media screen and (max-width: 540px) {
   .navigation {
