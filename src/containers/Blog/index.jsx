@@ -1,6 +1,6 @@
 import React from 'react';
 import pills from '../../static/img/pills.png';
-import TellUs from '../../reuseables/tell-us';
+import TellUs from '../../components/tell-us/tell-us';
 import Latest from '../../reuseables/latest-story';
 function Features() {
   return (

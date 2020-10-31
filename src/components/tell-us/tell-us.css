@@ -1,0 +1,21 @@
+.tell-us {
+  background: #008678;
+  margin-top: 10vh;
+  color: white;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  text-align: center;
+}
+.tell-us .tell-us-button {
+  margin: auto;
+  border: none;
+  padding: 15px 60px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: black;
+  background: white;
+}
+.tell-us p {
+  font-size: large;
+  letter-spacing: 2px;
+}

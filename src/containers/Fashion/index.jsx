@@ -5,7 +5,7 @@ import support from '../../static/icon/support.png';
 import product from '../../static/img/capsules.png';
 import medicine from '../../static/img/medicine.png';
 import spin from '../../static/img/engineering.png';
-import TellUs from '../../reuseables/tell-us';
+import TellUs from '../../components/tell-us/tell-us';
 
 function Fashion() {
   return (

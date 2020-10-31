@@ -5,7 +5,7 @@ import tap from '../../static/icon/on-tap.png';
 import trace from '../../static/icon/trace.png';
 import medicine from '../../static/img/medicine.png';
 import boot from '../../static/img/retail.png';
-import TellUs from '../../reuseables/tell-us';
+import TellUs from '../../components/tell-us/tell-us';
 
 function Engineering() {
   return (

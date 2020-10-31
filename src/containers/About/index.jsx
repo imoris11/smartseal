@@ -2,7 +2,7 @@ import React from 'react';
 import simplicity from '../../static/icon/trace.png';
 import security from '../../static/icon/secuurity.png';
 import efficiency from '../../static/icon/efficiency.png';
-import TellUs from '../../reuseables/tell-us';
+import TellUs from '../../components/tell-us/tell-us';
 
 function About() {
   return (
@@ -23,11 +23,11 @@ function About() {
         </div>
       </div>
 
-      <div className="container ">
-        <div className="row rectangles">
-          <div className="row center">
-            <div className="col-sm-4 rectangle-box-left center ">
-              <img src={simplicity} className="simplicity" alt="simplicity" />
+      <div className='container '>
+        <div className='row rectangles'>
+          <div className='row center'>
+            <div className='col-sm-4 rectangle-box-left center '>
+              <img src={simplicity} className='simplicity' alt='simplicity' />
 
               <h3>Simplicity</h3>
               <p>
@@ -36,8 +36,8 @@ function About() {
               </p>
             </div>
 
-            <div className="col-sm-4 rectangle-box-right ">
-              <img src={security} className="security" alt="security" />
+            <div className='col-sm-4 rectangle-box-right '>
+              <img src={security} className='security' alt='security' />
 
               <h3>Security</h3>
               <p>

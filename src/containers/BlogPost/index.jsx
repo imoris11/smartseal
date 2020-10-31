@@ -1,6 +1,6 @@
 import React from 'react';
 import pills from '../../static/img/pills.png';
-import TellUs from '../../reuseables/tell-us';
+import TellUs from '../../components/tell-us/tell-us';
 import Latest from '../../reuseables/latest-story';
 import facebook from '../../static/icon/facebook.png';
 import linkedin from '../../static/icon/linkedin.png';
