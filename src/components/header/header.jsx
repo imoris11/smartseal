@@ -178,7 +178,7 @@ export default function Header() {
           </NavLink>
         </div>
         <button type='submit' className='btn  contact-button'>
-          Contact us
+          <Link to='/contact'>Contact us</Link>
         </button>
       </div>
       {dropped ? (

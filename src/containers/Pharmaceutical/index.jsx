@@ -5,7 +5,7 @@ import recycle from '../../static/icon/recycle.png';
 import info from '../../static/icon/info.png';
 import boot from '../../static/img/retail.png';
 import spin from '../../static/img/engineering.png';
-import TellUs from '../../reuseables/tell-us';
+import TellUs from '../../components/tell-us/tell-us';
 
 function Pharmacetical() {
   return (

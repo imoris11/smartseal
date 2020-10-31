@@ -7,7 +7,7 @@ import api from '../../static/img/api.png';
 import boot from '../../static/img/retail.png';
 import medicine from '../../static/img/medicine.png';
 import engineering from '../../static/img/engineering.png';
-import TellUs from '../../reuseables/tell-us';
+import TellUs from '../../components/tell-us/tell-us';
 function Features() {
   return (
     <div>

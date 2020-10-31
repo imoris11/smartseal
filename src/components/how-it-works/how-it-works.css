@@ -13,31 +13,13 @@
   width: 100%;
 }
 .how-it-works .how-it-works-img.desktop {
-  
 }
 .how-it-works p {
   font: 5vw;
   margin: 5vh auto;
   font-weight: bold;
 }
-.how-it-works .tell-us {
-  background: #008678;
-  margin-top: 10vh;
-  color: white;
-  padding-top: 5vh;
-  padding-bottom: 5vh;
-  text-align: center;
-}
-.how-it-works .tell-us .tell-us-button {
-  margin: auto;
-  border: none;
-  padding: 15px 60px;
-  border-radius: 5px;
-  font-weight: bold;
 
-  color: black;
-  background: white;
-}
 @media screen and (max-width: 540px) {
   .how-it-works .how-it-works-img.mobile {
     display: block;
