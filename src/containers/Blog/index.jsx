@@ -7,42 +7,39 @@ function Features() {
     <div>
       <div className='blog-header'>
         <div className='container'>
-          <div className='row ' style={{ paddingTop: '20vh' }}>
-            <div className='row'>
-              <div className='col-sm-5'>
-                <img src={pills} className='pills' alt='pills' />
-              </div>
-              <div className='col-sm-7' style={{ paddingTop: '8vh' }}>
-                <div className='col fashion-text text-white'>
-                  <div className='feature-button'>
-                    <p>Featured</p>
-                  </div>
-
-                  <h2>
-                    Medicine and Up to date <br />
-                    values in authenticity.
-                  </h2>
-                  <p>By: SmartSeal . October 9 2020</p>
+          <div className='row'>
+            <div className='col-sm-5 blog-pill-desktop'>
+              <img src={pills} className='pills' alt='pills' />
+            </div>
+            <div className='col-xs-11 col-sm-7'>
+              <div className='col fashion-text text-white'>
+                <div className='feature-button'>
+                  <p>Featured</p>
                 </div>
+
+                <h1>Medicine and Up to date values in authenticity.</h1>
+                <p>By: SmartSeal . October 9 2020</p>
               </div>
+            </div>
+            <div className='col-xs-11 col-sm-5 blog-pill-mobile'>
+              <img src={pills} className='pills' alt='pills' />
             </div>
           </div>
         </div>
       </div>
-
-      <div className='container-fluid'>
-        <div style={{ backgroundColor: 'F6F6EF' }}>
-          <h2 style={{ textAlign: 'center', padding: '5%' }}>Latest Stories</h2>
-          <Latest />
-          <Latest />
+      <div className='blog-body'>
+        <div className='container-fluid'>
+          <div>
+            <h2>Latest Stories</h2>
+            <Latest />
+            <Latest />
+          </div>
         </div>
-      </div>
-      <div className='container-fluid'>
-        <div style={{ backgroundColor: '#FFFCE3' }}>
-          <h2 style={{ textAlign: 'center', padding: '5%' }}>
-            Recommended For You
-          </h2>
-          <Latest />
+        <div className='container-fluid'>
+          <div>
+            <h2>Recommended For You</h2>
+            <Latest />
+          </div>
         </div>
       </div>
 

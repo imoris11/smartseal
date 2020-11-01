@@ -53,8 +53,9 @@ p.footer-text-tag a:hover {
 }
 .footer-icons {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   margin-top: 20px;
+  padding-right: 10vw;
 }
 @media screen and (max-width: 500px) {
   .footer {
@@ -65,5 +66,9 @@ p.footer-text-tag a:hover {
   }
   .footer-img {
     display: none;
+  }
+  .footer-icons {
+    justify-content: flex-start;
+    padding-left: 10vw;
   }
 }

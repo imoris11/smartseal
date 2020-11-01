@@ -16,38 +16,35 @@ function Contact() {
         </div>
       </div>
 
-      <div className='container center'>
-        <div className='row rectangles'>
-          <div className='row center'>
-            <div className='col-sm-4 rectangle-box-left'>
-              <img src={support} className='support' alt='support' />
-              <p>
-                The future is built on brand <br />
-                trust and transparency
-              </p>
-            </div>
-            <div className='col-sm-4 rectangle-box-right'>
-              <img src={engage} className='engage' alt='engage' />
-              <p>
-                Engage your customers with <br /> your brand’s promise
-              </p>
-            </div>
-            <div className='col-sm-4 rectangle-box-left'>
-              <img src={promote} className='promote' alt='promote' />
-              <p>
-                Build creative marketing campaigns <br /> through this direct
-                sales channel
-              </p>
-            </div>
+      <div className='container rectangles '>
+        <div className='row center '>
+          <div className='col-xs-10 col-sm-3 col-md-3 rectangle-box'>
+            <img src={support} className='support' alt='support' />
+            <p>
+              The future is built on brand <br />
+              trust and transparency
+            </p>
+          </div>
+          <div className='col-xs-10 col-sm-3 col-md-3 rectangle-box'>
+            <img src={engage} className='engage' alt='engage' />
+            <p>
+              Engage your customers with <br /> your brand’s promise
+            </p>
+          </div>
+          <div className='col-xs-10 col-sm-3 col-md-3 rectangle-box'>
+            <img src={promote} className='promote' alt='promote' />
+            <p>
+              Build creative marketing campaigns <br /> through this direct
+              sales channel
+            </p>
           </div>
         </div>
       </div>
-      <div className='row' style={{ paddingBottom: '10%', paddingTop: '3%' }}>
-        <div className='col-sm-4'></div>
-        <div className='col-sm-4'>
-          <div className='row'>
-            <form>
-              <div className='col-sm-6'>
+      <div className='row center'>
+        <div className='col-sm-6 '>
+          <div className='row '>
+            <form className='contact-form'>
+              <div className='col-sm-10 col-md-6'>
                 <input
                   type='text'
                   id='fname'
@@ -55,7 +52,7 @@ function Contact() {
                   placeholder='First Name'
                 />
               </div>
-              <div className='col-sm-6'>
+              <div className='col-sm-10 col-md-6'>
                 <input
                   type='text'
                   id='lname'
@@ -63,11 +60,7 @@ function Contact() {
                   placeholder='Last Name'
                 />
               </div>
-            </form>
-          </div>
-          <div className='row' style={{ paddingTop: '5%' }}>
-            <form>
-              <div className='col-sm-6'>
+              <div className='col-sm-10 col-md-6'>
                 <input
                   type='text'
                   id='title'
@@ -75,7 +68,7 @@ function Contact() {
                   placeholder='Work Email'
                 />
               </div>
-              <div className='col-sm-6'>
+              <div className='col-sm-10 col-md-6'>
                 <input
                   type='text'
                   id='title'
@@ -83,11 +76,7 @@ function Contact() {
                   placeholder='Job Title'
                 />
               </div>
-            </form>
-          </div>
-          <div className='row' style={{ paddingTop: '5%' }}>
-            <form>
-              <div className='col-sm-6'>
+              <div className='col-sm-10 col-md-6'>
                 <input
                   type='text'
                   id='cname'
@@ -95,7 +84,7 @@ function Contact() {
                   placeholder='Company Name'
                 />
               </div>
-              <div className='col-sm-6'>
+              <div className='col-sm-10 col-md-6'>
                 <input
                   type='text'
                   id='cwebsite'
@@ -103,36 +92,29 @@ function Contact() {
                   placeholder='Company Website'
                 />
               </div>
-            </form>
-          </div>
-          <div className='row' style={{ paddingTop: '5%' }}>
-            <form>
-              <div className='col-sm-6'>
+              <div className='col-sm-10 col-md-6'>
                 <select id='industry' name='industry'>
                   <option value='industry'>Industry</option>
                 </select>
               </div>
-
-              <div className='col-sm-6'>
+              <div className='col-sm-10 col-md-6'>
                 <select id='quantity' name='quantity'>
                   <option value='quantity'>Product Quantity</option>
                 </select>
               </div>
+              <div className='col-sm-12'>
+                <textarea
+                  id='message'
+                  name='message'
+                  placeholder='Additional Message '
+                  style={{ height: '200px' }}
+                ></textarea>
+              </div>
+
+              <input type='submit' value='Contact Us' />
             </form>
           </div>
-          <div style={{ paddingTop: '5%' }}>
-            <textarea
-              id='message'
-              name='message'
-              placeholder='Additional Message '
-              style={{ height: '200px' }}
-            ></textarea>
-          </div>
-          <div class='row' style={{ paddingTop: '5%' }}>
-            <input type='submit' value='Contact Us' />
-          </div>
         </div>
-        <div className='col-sm-4'></div>
       </div>
     </div>
   );

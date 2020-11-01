@@ -7,52 +7,49 @@ import TellUs from '../../components/tell-us/tell-us';
 function About() {
   return (
     <div className='about-background'>
-      <div className='contact-header'>
+      <div className='about-header'>
         <div className='container'>
-          <div className='row center' style={{ paddingTop: '17%' }}>
-            <div>
+          <div className='row center' style={{ paddingTop: '30vh' }}>
+            <div className='col-xs-12'>
               <h1 className='text-center'>
                 Continuously create unique and fully secure <br /> relevant
                 experiences based on brand need.
               </h1>
             </div>
-            <div className='col fashion-text text-white'>
+            <div className='col-xs-12 about-text text-white'>
               <h1 className='text-center'>Core Values</h1>
             </div>
           </div>
         </div>
       </div>
 
-      <div className='container '>
-        <div className='row rectangles'>
-          <div className='row center'>
-            <div className='col-sm-4 rectangle-box-left center '>
-              <img src={simplicity} className='simplicity' alt='simplicity' />
+      <div className='container rectangles '>
+        <div className='row center'>
+          <div className='col-xs-10 col-sm-3 col-md-3 rectangle-box '>
+            <img src={simplicity} className='simplicity' alt='simplicity' />
 
-              <h3>Simplicity</h3>
-              <p>
-                Our solution is turnkey, clear <br />
-                and is easy to implement
-              </p>
-            </div>
+            <h3>Simplicity</h3>
+            <p>
+              Our solution is turnkey, clear <br />
+              and is easy to implement
+            </p>
+          </div>
+          <div className='col-xs-10 col-sm-3 col-md-3 rectangle-box'>
+            <img src={security} className='security' alt='security' />
 
-            <div className='col-sm-4 rectangle-box-right '>
-              <img src={security} className='security' alt='security' />
-
-              <h3>Security</h3>
-              <p>
-                Our diligent process always results <br /> in your product’s
-                authenticity.
-              </p>
-            </div>
-            <div className='col-sm-4 rectangle-box-left'>
-              <img src={efficiency} className='efficiency' alt='efficiency' />
-              <h3>Efficiency</h3>
-              <p>
-                From each marketing campaign and <br /> through all business
-                integrations we <br /> will be your capable partner.
-              </p>
-            </div>
+            <h3>Security</h3>
+            <p>
+              Our diligent process always results <br /> in your product’s
+              authenticity.
+            </p>
+          </div>
+          <div className='col-xs-10 col-sm-3 col-md-3 rectangle-box'>
+            <img src={efficiency} className='efficiency' alt='efficiency' />
+            <h3>Efficiency</h3>
+            <p>
+              From each marketing campaign and <br /> through all business
+              integrations we <br /> will be your capable partner.
+            </p>
           </div>
         </div>
       </div>

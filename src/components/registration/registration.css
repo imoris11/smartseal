@@ -1,6 +1,6 @@
 .registration {
   min-height: 100vh;
-  padding-top: 20vh;
+  padding-top: 15vh;
   padding-bottom: 10vh;
   background: #008678;
   color: white;
@@ -19,18 +19,23 @@
   margin-top: 10vh;
 }
 .registration .registration-img img {
-  max-width: 100%;
+  max-width: 90%;
 }
 .registration-img .floating-img {
   position: absolute;
   z-index: 20;
   width: max-content;
   left: -5%;
-  top: 45%;
+  top: 50%;
 }
 
 @media screen and (max-width: 540px) {
+  .registration-img {
+    justify-content: center;
+  }
   .registration-img .floating-img {
+    transform: scale(1.1);
     top: 50%;
+    left: 5%;
   }
 }
