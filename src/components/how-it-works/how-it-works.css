@@ -5,6 +5,9 @@
 .how-it-works .how-it-works-img.mobile {
   display: none;
 }
+.how-it-works .text {
+  padding: 5vh 5vw;
+}
 
 .how-it-works .how-it-works-img {
   width: 100%;
@@ -19,7 +22,12 @@
   margin: 5vh auto;
   font-weight: bold;
 }
-
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
 @media screen and (max-width: 540px) {
   .how-it-works .how-it-works-img.mobile {
     display: block;

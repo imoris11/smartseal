@@ -5,7 +5,7 @@ import Protection from '../../components/protection/protection';
 import HowItWorks from '../../components/how-it-works/how-it-works';
 import Stories from '../../components/stories/stories';
 import Experience from '../../components/experience/experience';
-import tellUs from '../../components/tell-us/tell-us';
+import TellUs from '../../components/tell-us/tell-us';
 
 function Home() {
   return (
@@ -15,7 +15,7 @@ function Home() {
       <Protection />
       <Registration />
       <HowItWorks />
-      <tellUs />
+      <TellUs />
       <Stories />
     </div>
   );

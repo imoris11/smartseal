@@ -52,8 +52,8 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className='row right'>
-          <div className='col-sm-4 footer-icons'>
+        <div className='row'>
+          <div className='col-sm-12 footer-icons'>
             <div>
               <img src={facebook} alt='facebook' /> &nbsp;
               <img src={linkedin} alt='linkedin' /> &nbsp;
