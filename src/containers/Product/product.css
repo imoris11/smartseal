@@ -38,17 +38,43 @@ h4 {
   background-position: center;
   min-height: 100vh;
   display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-bottom: 5vh;
+}
+.product-header .icons {
+  display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: flex-start;
+}
+.product-header .tabs {
+  display: flex;
+  justify-content: center;
 }
 .product-header img {
   padding: 5% 10%;
 }
 
+.div-one,
+.div-two,
+.div-three {
+  display: inline;
+  background: white;
+  width: 15px;
+  height: 5px;
+  border-radius: 25%;
+  border: 1px solid white;
+  margin: 10px 5px;
+}
+.tabs .div-one {
+  width: 25px;
+  border: 1px solid #0a8f81;
+}
 @media screen and (max-width: 500px) {
   .product-header {
     background-image: url('../../static/img/boot.png');
+    min-height: 60vh;
   }
   .product-box {
     margin-top: -10%;
