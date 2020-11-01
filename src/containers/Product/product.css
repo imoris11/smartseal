@@ -1,0 +1,61 @@
+.product-box {
+  border-radius: 25px;
+  padding: 10px;
+  width: 100%;
+  height: auto;
+}
+.product-box h3,
+h4 {
+  font-family: 'Roboto Slab';
+}
+.sizes {
+  display: flex;
+  gap: 20px;
+}
+
+.size-box {
+  border: 1px solid grey;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  padding-top: 5px;
+}
+.buy-now {
+  color: white;
+  display: inline;
+  width: 50vw;
+  font-size: 22px;
+  border-radius: 22px;
+  border: none;
+  margin: 10px auto 10vh;
+  padding: 10px 20px;
+  background-color: #0a8f81;
+}
+.product-header {
+  background-image: url('../../static/img/retail-long.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.product-header img {
+  padding: 5% 10%;
+}
+
+@media screen and (max-width: 500px) {
+  .product-header {
+    background-image: url('../../static/img/boot.png');
+  }
+  .product-box {
+    margin-top: -10%;
+    background: white;
+    color: black;
+  }
+  .buy-now {
+    width: 100%;
+  }
+}

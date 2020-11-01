@@ -1,0 +1,25 @@
+.not-found {
+  background: #008678;
+  min-height: 100vh;
+  border: 2px solid #008678;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.not-found h1 {
+  text-align: center;
+  color: white;
+}
+
+.not-found h4 {
+  color: white;
+}
+.not-found h4 a {
+  border: none;
+  background: green;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 5px;
+}
