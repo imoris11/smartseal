@@ -7,8 +7,16 @@ function Product() {
   return (
     <div className='product-page'>
       <div className='product-header'>
-        <img src={arrow} className='cart' alt='cart' />
-        <img src={cart} className='cart' alt='cart' />
+        <div className='icons'>
+          <img src={arrow} className='cart' alt='cart' />
+          <img src={cart} className='cart' alt='cart' />
+        </div>
+
+        <div className='tabs'>
+          <div className='div-one'></div>
+          <div className='div-two'></div>
+          <div className='div-three'></div>
+        </div>
       </div>
 
       <div className='product-box'>
