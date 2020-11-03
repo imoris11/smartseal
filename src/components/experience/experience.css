@@ -5,16 +5,19 @@
 .experience ul li {
   display: relative;
   margin: 5vh auto;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   align-items: center;
   justify-content: center;
   text-justify: newspaper;
   list-style-type: disc;
-  font-weight: bold;
+  font-weight: 500;
+  color: #000000;
+  font-style: normal;
+  line-height: 28.8px;
 }
+
 li::before {
-  content: '';
   height: 3px;
   width: 22px;
   background: rgb(43, 42, 42);
@@ -34,4 +37,8 @@ li::before {
   width: max-content;
   left: 0%;
   top: 15%;
+}
+ul {
+  list-style-type: hyphen;
+  color: #999999;
 }

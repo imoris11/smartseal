@@ -1,6 +1,6 @@
 .banner {
   min-height: 100vh;
-  background: url('../../static//img/background.png') no-repeat center center;
+  background: url("../../static//img/background.png") no-repeat center center;
   background-size: cover;
 }
 .banner .banner-text {
@@ -10,15 +10,21 @@
 .banner h1 {
   font-size: calc(4vh + 0.2rem);
   font-size: 48px;
-  font-family: 'Roboto Slab', sans-serif;
+  font-family: "Roboto Slab", sans-serif;
+  line-height: 53.3px;
 }
 .banner p {
   font-weight: bold;
+  font-family: Raleway;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 35.44px;
 }
 .banner-img {
   height: 80vh;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 @media only screen and (max-width: 540px) {
   .banner h1 {
