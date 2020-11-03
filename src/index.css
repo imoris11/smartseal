@@ -6,12 +6,12 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 h1 {
-  font-family: 'Roboto Slab', sans-serif;
+  font-family: "Roboto Slab", sans-serif;
   font-size: 40px;
 }
 .contact-margin-top {
@@ -40,7 +40,7 @@ h1 {
 }
 
 .fashion-header {
-  background-image: url('./static/img/retail-long.png');
+  background-image: url("./static/img/retail-long.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -53,11 +53,24 @@ h1 {
 }
 
 .fashion-text > h1 {
-  font-family: 'Roboto Slab', sans-serif;
+  font-family: "Roboto Slab", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 45px;
   line-height: 65.94px;
+}
+.fashion-text > h2 {
+  font-family: "Roboto Slab", sans-serif;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 176.9%;
+  /* or 64px */
+
+  text-transform: capitalize;
+
+  color: #fcfcfc;
 }
 .fashion-text > p {
   font-weight: 400;
@@ -83,16 +96,21 @@ h1 {
   line-height: 30.3px;
 }
 .feature-bold-text {
-  font-weight: 500;
+  font-family: Roboto Slab;
   font-style: normal;
+  font-weight: normal;
   font-size: 24px;
-  line-height: 31.65px;
+  line-height: 32px;
+  color: #000000;
 }
 .feature-small-text {
-  font-weight: 500;
+  font-family: Raleway;
   font-style: normal;
+  font-weight: 500;
   font-size: 16px;
-  line-height: 31.65px;
+  line-height: 180%;
+  /* or 29px */
+  color: #000000;
 }
 .tell-us {
   background-color: #008678;
@@ -130,7 +148,7 @@ h1 {
   margin-top: 12%;
 }
 .pharmaceutical-header {
-  background-image: url('./static/img/medicine-long.png');
+  background-image: url("./static/img/medicine-long.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -142,7 +160,7 @@ h1 {
   padding-top: 40vh;
 }
 .engineering-header {
-  background-image: url('./static/img/blade-long.png');
+  background-image: url("./static/img/blade-long.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -154,7 +172,7 @@ h1 {
   padding-top: 40vh;
 }
 .contact-header {
-  background-image: url('./static/img/asset.png');
+  background-image: url("./static/img/asset.png");
   background-color: #008678;
   background-repeat: no-repeat;
   background-size: cover;
@@ -170,53 +188,82 @@ h1 {
   margin: 5vh auto;
   text-align: center;
   padding: 5vh 2vw;
-  min-height: 320px;
-  max-height: 320px;
+  width: 345px;
+  height: 396px;
   background: white;
   border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 .rectangles {
   margin-top: -10%;
   position: static;
   font-size: 16px;
 }
-.rectangles > p {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 17.78px;
+.rectangle-box > h3 {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
 }
-input[type='text'],
+.rectangle-box > p {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #000000;
+}
+input[type="text"],
 select,
 textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid black;
+  border: 1px solid lightgray;
   border-radius: 4px;
   resize: vertical;
   margin: 10px auto;
+  color: rgba(3, 3, 3, 0.66);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
 }
-input[type='text']::placeholder,
+input[type="text"]::placeholder,
 select::placeholder,
 textarea::placeholder {
-  color: #030303;
+  color: rgba(3, 3, 3, 0.66);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
 }
 
-input[type='submit'] {
+input[type="submit"] {
   background-color: #008678;
-  color: white;
+
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  font-size: 16px;
+
   margin-left: 15px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
 }
 .about-background {
   background: rgba(50, 185, 171, 0.03);
 }
 .about-header {
-  background-image: url('./static/img/asset.png');
+  background-image: url("./static/img/asset.png");
   background-color: #008678;
   background-repeat: no-repeat;
   background-size: cover;
@@ -228,14 +275,15 @@ input[type='submit'] {
   color: white;
 }
 .about-text > h1 {
-  font-family: 'Roboto Slab', sans-serif;
-  font-weight: 400;
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 600;
   font-style: normal;
   font-size: 50px;
   line-height: 65.94px;
+  color: white;
 }
 .features-header {
-  background-image: url('./static/img/book-long.png');
+  background-image: url("./static/img/book-long.png");
   background-color: #008678;
   background-repeat: no-repeat;
   background-size: cover;
@@ -246,6 +294,18 @@ input[type='submit'] {
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.features-header > h2 {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 176.9%;
+
+  text-transform: capitalize;
+
+  color: #fcfcfc;
+}
+
 .features-box-left {
   position: static;
   margin-left: 40px;
@@ -267,7 +327,7 @@ input[type='submit'] {
   border-radius: 5px;
 }
 .blog-header {
-  background-image: url('static/img/Rectangle.png');
+  background-image: url("static/img/Rectangle.png");
   background-color: #008678;
   background-repeat: no-repeat;
   background-size: cover;
@@ -308,7 +368,7 @@ input[type='submit'] {
   font-size: 18px;
 }
 .blog-post-header {
-  background-image: url('./static/img/pills-long.png');
+  background-image: url("./static/img/pills-long.png");
   background: rgba(25, 62, 80, 0.81);
   background-repeat: no-repeat;
   background-size: cover;
@@ -327,7 +387,7 @@ input[type='submit'] {
   justify-content: center;
 }
 .blog-post .post-text h1 {
-  font-family: 'Roboto Slab', sans-serif;
+  font-family: "Roboto Slab", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 50px;
@@ -353,8 +413,8 @@ input[type='submit'] {
   background-size: cover;
 }
 .img-resize {
-  width: '100%';
-  height: 'auto';
+  width: "100%";
+  height: "auto";
 }
 
 @media screen and (max-width: 500px) {
@@ -388,4 +448,53 @@ input[type='submit'] {
   .rectangles-image {
     margin-top: -25vh;
   }
+}
+.border-blue {
+  border: 2px solid blue;
+}
+.border-red {
+  border: 2px solid red;
+}
+.border-green {
+  border: 2px solid green;
+}
+@media screen and (min-width: 501px) {
+  .product-page {
+    display: none;
+  }
+}
+.product-box {
+  border-radius: 25px;
+  background: white;
+  padding: 10px;
+  width: 100%;
+  height: auto;
+  margin-top: -40%;
+}
+
+.size-box {
+  border: 1px solid grey;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  padding-top: 5px;
+}
+.buy-now {
+  border-radius: 5px;
+  padding: 5%;
+
+  border: 1px solid grey;
+  background-color: #0a8f81;
+  text-align: center;
+}
+.product-header {
+  background-image: url("./static/img/boot.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }

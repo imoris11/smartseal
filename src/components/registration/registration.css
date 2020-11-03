@@ -6,17 +6,24 @@
   color: white;
 }
 .registration h1 {
-  font-size: 40px;
+  font-family: "Roboto Slab", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 63px;
 }
 .registration p {
-  font: 16px;
-  font-weight: bold;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 188.5%;
 }
 .registration-img {
   position: relative;
   display: flex;
   justify-content: flex-end;
-  margin-top: 10vh;
+  margin-top: -20vh;
 }
 .registration .registration-img img {
   max-width: 90%;

@@ -44,8 +44,14 @@
 }
 p.footer-text-tag a {
   color: white;
+
+  font-weight: normal;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
   font-size: 16px;
-  font-weight: lighter;
+  line-height: 224%;
+  /* or 36px */
 }
 p.footer-text-tag a:hover {
   color: white;

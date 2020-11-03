@@ -22,9 +22,19 @@
 }
 
 .protection .protection-text p {
-  padding-top: 10vh;
+  padding-top: 3vh;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 500;
+  font: Raleway;
+  font-style: normal;
+  line-height: 28.8px;
+}
+.protection .protection-text h1 {
+  font-size: 48px;
+  font-weight: 500;
+  font-family: "Roboto Slab", sans-serif;
+  font-style: normal;
+  line-height: 63px;
 }
 
 @media screen and (max-width: 540px) {
