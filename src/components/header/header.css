@@ -8,6 +8,7 @@
 
 .header-amid {
   background: white;
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.75);
 }
 .header-amid.header .nav-items .nav-item {
   color: black;
@@ -23,6 +24,9 @@
   align-items: center;
   padding: 7vh 0;
   max-width: 100vw;
+}
+.header .navigation .nav-items a:hover {
+  text-decoration: none;
 }
 .row {
   margin-left: 0 !important;

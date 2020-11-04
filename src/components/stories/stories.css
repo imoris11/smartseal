@@ -1,5 +1,7 @@
 .stories {
   min-height: 100vh;
+  background: #f6f6ef;
+  border: 2px solid #f6f6ef;
 }
 .stories h1 {
   font-size: 25px;
@@ -7,7 +9,7 @@
   padding-bottom: 5vh;
 }
 .stories h2 {
-  font-family: "Roboto Slab", sans-serif;
+  font-family: 'Roboto Slab', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -30,7 +32,7 @@
   width: 100%;
 }
 .explore-button {
-  margin: 5vh auto;
+  margin: 10vh auto 5vh;
   color: white;
   border: none;
   padding: 15px 30px;
