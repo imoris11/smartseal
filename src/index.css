@@ -6,12 +6,12 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
 h1 {
-  font-family: "Roboto Slab", sans-serif;
+  font-family: 'Roboto Slab', sans-serif;
   font-size: 40px;
 }
 .contact-margin-top {
@@ -40,7 +40,7 @@ h1 {
 }
 
 .fashion-header {
-  background-image: url("./static/img/retail-long.png");
+  background-image: url('./static/img/retail-long.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -53,14 +53,14 @@ h1 {
 }
 
 .fashion-text > h1 {
-  font-family: "Roboto Slab", sans-serif;
+  font-family: 'Roboto Slab', sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 45px;
   line-height: 65.94px;
 }
 .fashion-text > h2 {
-  font-family: "Roboto Slab", sans-serif;
+  font-family: 'Roboto Slab', sans-serif;
 
   font-style: normal;
   font-weight: normal;
@@ -148,7 +148,7 @@ h1 {
   margin-top: 12%;
 }
 .pharmaceutical-header {
-  background-image: url("./static/img/medicine-long.png");
+  background-image: url('./static/img/medicine-long.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -160,7 +160,7 @@ h1 {
   padding-top: 40vh;
 }
 .engineering-header {
-  background-image: url("./static/img/blade-long.png");
+  background-image: url('./static/img/blade-long.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -172,7 +172,7 @@ h1 {
   padding-top: 40vh;
 }
 .contact-header {
-  background-image: url("./static/img/asset.png");
+  background-image: url('./static/img/asset.png');
   background-color: #008678;
   background-repeat: no-repeat;
   background-size: cover;
@@ -182,6 +182,11 @@ h1 {
   flex-direction: column;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.blocker-contact {
+  min-height: 80vh;
+  background-color: #008678;
+  opacity: 0.8;
 }
 
 .rectangle-box {
@@ -216,7 +221,7 @@ h1 {
 
   color: #000000;
 }
-input[type="text"],
+input[type='text'],
 select,
 textarea {
   width: 100%;
@@ -232,7 +237,7 @@ textarea {
   font-size: 16px;
   line-height: 19px;
 }
-input[type="text"]::placeholder,
+input[type='text']::placeholder,
 select::placeholder,
 textarea::placeholder {
   color: rgba(3, 3, 3, 0.66);
@@ -243,7 +248,7 @@ textarea::placeholder {
   line-height: 19px;
 }
 
-input[type="submit"] {
+input[type='submit'] {
   background-color: #008678;
 
   padding: 12px 20px;
@@ -263,7 +268,7 @@ input[type="submit"] {
   background: rgba(50, 185, 171, 0.03);
 }
 .about-header {
-  background-image: url("./static/img/asset.png");
+  background-image: url('./static/img/asset.png');
   background-color: #008678;
   background-repeat: no-repeat;
   background-size: cover;
@@ -274,8 +279,13 @@ input[type="submit"] {
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.blocker {
+  background-color: #008678;
+  opacity: 0.8;
+  min-height: 100vh;
+}
 .about-text > h1 {
-  font-family: "Roboto Slab", sans-serif;
+  font-family: 'Roboto Slab', sans-serif;
   font-weight: 600;
   font-style: normal;
   font-size: 50px;
@@ -283,7 +293,7 @@ input[type="submit"] {
   color: white;
 }
 .features-header {
-  background-image: url("./static/img/book-long.png");
+  background-image: url('./static/img/book-long.png');
   background-color: #008678;
   background-repeat: no-repeat;
   background-size: cover;
@@ -327,7 +337,7 @@ input[type="submit"] {
   border-radius: 5px;
 }
 .blog-header {
-  background-image: url("static/img/Rectangle.png");
+  background-image: url('static/img/Rectangle.png');
   background-color: #008678;
   background-repeat: no-repeat;
   background-size: cover;
@@ -368,7 +378,7 @@ input[type="submit"] {
   font-size: 18px;
 }
 .blog-post-header {
-  background-image: url("./static/img/pills-long.png");
+  background-image: url('./static/img/pills-long.png');
   background: rgba(25, 62, 80, 0.81);
   background-repeat: no-repeat;
   background-size: cover;
@@ -378,16 +388,23 @@ input[type="submit"] {
   flex-direction: column;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 0 10vw;
   padding-top: 30vh;
 }
 .blog-post .single-post {
   padding-bottom: 10vh;
+  padding: 0 5vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+.blog-post .single-post p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26.3px;
+}
 .blog-post .post-text h1 {
-  font-family: "Roboto Slab", sans-serif;
+  font-family: 'Roboto Slab', sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 50px;
@@ -404,7 +421,7 @@ input[type="submit"] {
   padding: 5vh 0;
 }
 .rectangles-image {
-  margin-top: -15vh;
+  margin-top: -30vh;
   font-size: 16px;
 }
 .blog-pills {
@@ -413,17 +430,26 @@ input[type="submit"] {
   background-size: cover;
 }
 .img-resize {
-  width: "100%";
-  height: "auto";
+  width: '100%';
+  height: 'auto';
 }
 
 @media screen and (max-width: 500px) {
+  .rectangle-box {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  }
   .blog-header {
     background: #007d70;
     height: 60vh;
     min-height: 80vh;
     padding-top: 5vh;
     margin-bottom: 30vh;
+  }
+  .blog-post-header {
+    padding: 0;
+  }
+  .blog-post .single-post {
+    padding: 0;
   }
   .blog-header h1 {
     font-size: 2em;
@@ -449,15 +475,7 @@ input[type="submit"] {
     margin-top: -25vh;
   }
 }
-.border-blue {
-  border: 2px solid blue;
-}
-.border-red {
-  border: 2px solid red;
-}
-.border-green {
-  border: 2px solid green;
-}
+
 @media screen and (min-width: 501px) {
   .product-page {
     display: none;
@@ -488,7 +506,7 @@ input[type="submit"] {
   text-align: center;
 }
 .product-header {
-  background-image: url("./static/img/boot.png");
+  background-image: url('./static/img/boot.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;

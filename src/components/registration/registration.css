@@ -6,18 +6,28 @@
   color: white;
 }
 .registration h1 {
-  font-family: "Roboto Slab", sans-serif;
+  font-family: 'Roboto Slab', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
   line-height: 63px;
 }
 .registration p {
+  position: relative;
   font-family: Raleway;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 188.5%;
+  line-height: 30.3px;
+}
+.registration p::before {
+  content: '';
+  position: absolute;
+  height: 3px;
+  width: 7px;
+  background-color: white;
+  top: 65%;
+  left: -40px;
 }
 .registration-img {
   position: relative;
@@ -25,24 +35,25 @@
   justify-content: flex-end;
   margin-top: -20vh;
 }
-.registration .registration-img img {
-  max-width: 90%;
-}
-.registration-img .floating-img {
+.registration .registration-img img.floating-img {
   position: absolute;
   z-index: 20;
   width: max-content;
-  left: -5%;
+  left: -2%;
   top: 50%;
+  max-width: 100%;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 500px) {
   .registration-img {
     justify-content: center;
+    margin-top: 0;
   }
-  .registration-img .floating-img {
-    transform: scale(1.1);
+  .registration-img img {
+    width: 100%;
+  }
+  .registration .registration-img img.floating-img {
     top: 50%;
-    left: 5%;
+    left: 0;
   }
 }

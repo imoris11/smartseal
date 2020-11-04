@@ -48,7 +48,7 @@ const routes = [
     component: lazy(() => import('./containers/Blog')),
   },
   {
-    path: '/blogpost',
+    path: '/blog/:slug',
     exact: true,
     layout: Layout,
     component: lazy(() => import('./containers/BlogPost')),

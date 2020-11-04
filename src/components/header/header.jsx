@@ -1,47 +1,63 @@
-import React, { useState, useEffect } from "react";
-import { NavLink, Link } from "react-router-dom";
-import logo from "../../static/img/Logo_SmartSeal_Horizontal_White 1.png";
-import mobileLogo from "../../static/img/mobile-logo.svg";
-import close from "../../static/icon/close.png";
-import menu from "../../static/icon/menu.png";
-import "./header.css";
-import DesktopDropdown from "./desktop-dropdown";
-import Menu from "./menu";
+import React, { useState, useEffect } from 'react';
+import { NavLink, Link } from 'react-router-dom';
+import logo from '../../static/img/logo.svg';
+import mobileLogo from '../../static/img/mobile-logo.svg';
+import close from '../../static/icon/close.png';
+import menu from '../../static/icon/menu.png';
+import './header.css';
+import DesktopDropdown from './desktop-dropdown';
+import Menu from './menu';
 
 let listener = null;
 export default function Header() {
-  const [scrollState, setScrollState] = useState("top");
+  const [scrollState, setScrollState] = useState('top');
   const [bottom, setBottom] = useState(false);
   const [open, setOpen] = useState(false);
   const [dropped, setDropped] = useState(false);
 
   useEffect(() => {
-    listener = document.addEventListener("scroll", (e) => {
+    let scrolled = document.scrollingElement.scrollTop;
+
+    if (scrolled >= 120) {
+      if (scrollState !== 'amid') {
+        setScrollState('amid');
+      }
+    }
+  }, [scrollState]);
+
+  useEffect(() => {
+    listener = document.addEventListener('scroll', (e) => {
       let scrolled = document.scrollingElement.scrollTop;
       let contentHeight = document.body.clientHeight;
-      let percentage = (scrolled / contentHeight) * 100;
+      let percentage = ((scrolled / contentHeight) * 100).toFixed(0);
 
       if (scrolled >= 120) {
-        if (scrollState !== "amid") {
-          setScrollState("amid");
+        if (scrollState !== 'amid') {
+          setScrollState('amid');
         }
       } else {
-        if (scrollState !== "top") {
-          setScrollState("top");
+        if (scrollState !== 'top') {
+          setScrollState('top');
         }
       }
-      if (percentage.toFixed(0) >= 80) {
+      if (percentage >= 80 && contentHeight >= 3300) {
+        setBottom(true);
+      } else if (percentage >= 75 && contentHeight <= 3299) {
+        setBottom(true);
+      } else if (percentage >= 70 && contentHeight <= 2500) {
+        setBottom(true);
+      } else if (percentage >= 60 && contentHeight <= 2000) {
         setBottom(true);
       } else setBottom(false);
     });
     return () => {
-      document.removeEventListener("scroll", listener);
+      document.removeEventListener('scroll', listener);
     };
   }, [scrollState, bottom]);
   return (
     <div
-      className={` ${scrollState === "top" ? "" : "header-amid"} ${
-        bottom ? "header-bottom" : ""
+      className={` ${scrollState === 'top' ? '' : 'header-amid'} ${
+        bottom ? 'header-bottom' : ''
       } header`}
     >
       {open ? (
@@ -53,47 +69,47 @@ export default function Header() {
         />
       ) : null}
 
-      <div className="container navigation">
+      <div className='container navigation'>
         <button
-          type="button"
-          className="menu-control-button"
+          type='button'
+          className='menu-control-button'
           onClick={() => setOpen(!open)}
         >
-          <img src={open ? close : menu} alt={""} />
+          <img src={open ? close : menu} alt={''} />
         </button>
-        <Link to="" className="brand-logo" href="/">
+        <Link to='' className='brand-logo' href='/'>
           <img
-            src={scrollState === "top" ? logo : mobileLogo}
-            alt={""}
-            className="desktop"
+            src={scrollState === 'top' ? logo : mobileLogo}
+            alt={''}
+            className='desktop'
           />
-          <img src={mobileLogo} alt={""} className="mobile" />
+          <img src={mobileLogo} alt={''} className='mobile' />
         </Link>
-        <div className="nav-items">
-          <NavLink to={"/"} className="nav-item">
+        <div className='nav-items'>
+          <NavLink to={'/'} className='nav-item'>
             Home
           </NavLink>
 
-          <NavLink to={"/about"} className="nav-item">
+          <NavLink to={'/about'} className='nav-item'>
             About
           </NavLink>
 
-          <NavLink to={"/features"} className="nav-item">
+          <NavLink to={'/features'} className='nav-item'>
             Features
           </NavLink>
           <NavLink
             to={window.location.pathname}
             onClick={() => setDropped(!dropped)}
-            className="nav-item"
+            className='nav-item'
           >
-            Market <span className="caret"></span>
+            Market <span className='caret'></span>
           </NavLink>
-          <NavLink to={"/blog"} className="nav-item">
+          <NavLink to={'/blog'} className='nav-item'>
             Blog
           </NavLink>
         </div>
-        <button type="submit" className="btn  contact-button">
-          <Link to="/contact">Contact us</Link>
+        <button type='submit' className='btn  contact-button'>
+          <Link to='/contact'>Contact us</Link>
         </button>
       </div>
       {dropped ? (

@@ -1,38 +1,40 @@
-import React from "react";
-import simplicity from "../../static/icon/trace.png";
-import security from "../../static/icon/secuurity.png";
-import efficiency from "../../static/icon/efficiency.png";
-import TellUs from "../../components/tell-us/tell-us";
+import React from 'react';
+import simplicity from '../../static/icon/circle-dot.png';
+import security from '../../static/icon/secuurity.png';
+import efficiency from '../../static/icon/efficiency.png';
+import TellUs from '../../components/tell-us/tell-us';
 
 function About() {
   return (
     <div>
-      <div className="about-background">
-        <div className=" about-header ">
-          <div className="container ">
-            <div className="row center" style={{ paddingTop: "30vh" }}>
-              <div className="col-xs-12">
-                <h1 className="text-center">
-                  Continuously create unique and fully secure <br /> relevant
-                  experiences based on brand need.
-                </h1>
-              </div>
-              <div className="col-xs-12 about-text text-white">
-                <h1 className="text-center">Core Values</h1>
+      <div className='about-background'>
+        <div className=' about-header '>
+          <div className='blocker'>
+            <div className='container '>
+              <div className='row center' style={{ paddingTop: '30vh' }}>
+                <div className='col-xs-12'>
+                  <h1 className='text-center'>
+                    Continuously create unique and fully secure <br /> relevant
+                    experiences based on brand need.
+                  </h1>
+                </div>
+                <div className='col-xs-12 about-text text-white'>
+                  <h1 className='text-center'>Core Values</h1>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="container rectangles ">
-        <div className="row center">
-          <div className="col-xs-10 col-sm-3 col-md-3 rectangle-box ">
+      <div className='container rectangles '>
+        <div className='row center'>
+          <div className='col-xs-10 col-sm-3 col-md-3 rectangle-box '>
             <img
               src={simplicity}
-              className="simplicity"
-              alt="simplicity"
-              style={{ paddingTop: "10%" }}
+              className='simplicity'
+              alt='simplicity'
+              style={{ paddingTop: '10%' }}
             />
 
             <h3>Simplicity</h3>
@@ -41,12 +43,12 @@ function About() {
               and is easy to implement
             </p>
           </div>
-          <div className="col-xs-10 col-sm-3 col-md-3 rectangle-box">
+          <div className='col-xs-10 col-sm-3 col-md-3 rectangle-box'>
             <img
               src={security}
-              className="security"
-              alt="security"
-              style={{ paddingTop: "10%" }}
+              className='security'
+              alt='security'
+              style={{ paddingTop: '10%' }}
             />
 
             <h3>Security</h3>
@@ -55,12 +57,12 @@ function About() {
               authenticity.
             </p>
           </div>
-          <div className="col-xs-10 col-sm-3 col-md-3 rectangle-box">
+          <div className='col-xs-10 col-sm-3 col-md-3 rectangle-box'>
             <img
               src={efficiency}
-              className="efficiency"
-              alt="efficiency"
-              style={{ paddingTop: "10%" }}
+              className='efficiency'
+              alt='efficiency'
+              style={{ paddingTop: '10%' }}
             />
             <h3>Efficiency</h3>
             <p>
@@ -70,17 +72,17 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="container about-text">
-        <div className="row" style={{ paddingBottom: "10%", paddingTop: "3%" }}>
-          <h1 className="about-text text-center" style={{ paddingTop: "5%" }}>
+      <div className='container about-text'>
+        <div className='row' style={{ paddingBottom: '10%', paddingTop: '3%' }}>
+          <h1 className='about-text text-center' style={{ paddingTop: '5%' }}>
             About Us
           </h1>
           <p
-            className="text-center"
+            className='text-center'
             style={{
-              fontSize: "18px",
-              fontWeight: "500px",
-              lineHeight: "28.3px",
+              fontSize: '18px',
+              fontWeight: '500px',
+              lineHeight: '28.3px',
             }}
           >
             <br />
