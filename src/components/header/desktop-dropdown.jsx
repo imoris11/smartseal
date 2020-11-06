@@ -1,12 +1,15 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import retail from '../../static/img/retail.png';
-import medicine from '../../static/img/medicine.png';
-import parts from '../../static/img/engineering.png';
+import retail from '../../static/img/retail.svg';
+import medicine from '../../static/img/medicine.svg';
+import parts from '../../static/img/engineering.svg';
 
 export default function DesktopDropdown({ dropped, setDropped }) {
   return (
-    <div className='container' style={{ background: 'white' }}>
+    <div
+      className='container desktop-market-dropdown-bg'
+      style={{ background: 'white' }}
+    >
       <div
         className='row market-dropdown'
         id='desktop-market-dropdown'

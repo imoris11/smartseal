@@ -1,0 +1,15 @@
+.pre-feature.flexer {
+  display: flex;
+  justify-content: center;
+}
+.feature-story {
+  padding: 15px 20px;
+}
+
+.feature-story img {
+  margin-bottom: 20px;
+  width: 100%;
+}
+.feature-story:hover {
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.25);
+}

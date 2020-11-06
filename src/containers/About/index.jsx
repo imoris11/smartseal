@@ -11,12 +11,12 @@ function About() {
         <div className=' about-header '>
           <div className='blocker'>
             <div className='container '>
-              <div className='row center' style={{ paddingTop: '30vh' }}>
+              <div className='row center'>
                 <div className='col-xs-12'>
-                  <h1 className='text-center'>
+                  <h2 className='text-center'>
                     Continuously create unique and fully secure <br /> relevant
                     experiences based on brand need.
-                  </h1>
+                  </h2>
                 </div>
                 <div className='col-xs-12 about-text text-white'>
                   <h1 className='text-center'>Core Values</h1>
@@ -29,51 +29,40 @@ function About() {
 
       <div className='container rectangles '>
         <div className='row center'>
-          <div className='col-xs-10 col-sm-3 col-md-3 rectangle-box '>
-            <img
-              src={simplicity}
-              className='simplicity'
-              alt='simplicity'
-              style={{ paddingTop: '10%' }}
-            />
+          <div className='col-xs-12 col-sm-10 col-md-11'>
+            <div className='row rectangle-box-holder'>
+              <div className='col-xs-10 col-sm-3 col-md-3 rectangle-box '>
+                <img src={simplicity} className='simplicity' alt='simplicity' />
 
-            <h3>Simplicity</h3>
-            <p>
-              Our solution is turnkey, clear <br />
-              and is easy to implement
-            </p>
-          </div>
-          <div className='col-xs-10 col-sm-3 col-md-3 rectangle-box'>
-            <img
-              src={security}
-              className='security'
-              alt='security'
-              style={{ paddingTop: '10%' }}
-            />
+                <h3>Simplicity</h3>
+                <p>
+                  Our solution is turnkey, clear <br />
+                  and is easy to implement
+                </p>
+              </div>
+              <div className='col-xs-10 col-sm-3 col-md-3 rectangle-box'>
+                <img src={security} className='security' alt='security' />
 
-            <h3>Security</h3>
-            <p>
-              Our diligent process always results <br /> in your product’s
-              authenticity.
-            </p>
-          </div>
-          <div className='col-xs-10 col-sm-3 col-md-3 rectangle-box'>
-            <img
-              src={efficiency}
-              className='efficiency'
-              alt='efficiency'
-              style={{ paddingTop: '10%' }}
-            />
-            <h3>Efficiency</h3>
-            <p>
-              From each marketing campaign and <br /> through all business
-              integrations we <br /> will be your capable partner.
-            </p>
+                <h3>Security</h3>
+                <p>
+                  Our diligent process always results <br /> in your product’s
+                  authenticity.
+                </p>
+              </div>
+              <div className='col-xs-10 col-sm-3 col-md-3 rectangle-box'>
+                <img src={efficiency} className='efficiency' alt='efficiency' />
+                <h3>Efficiency</h3>
+                <p>
+                  From each marketing campaign and <br /> through all business
+                  integrations we <br /> will be your capable partner.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div className='container about-text'>
-        <div className='row' style={{ paddingBottom: '10%', paddingTop: '3%' }}>
+        <div className='row' style={{ paddingBottom: '10%' }}>
           <h1 className='about-text text-center' style={{ paddingTop: '5%' }}>
             About Us
           </h1>

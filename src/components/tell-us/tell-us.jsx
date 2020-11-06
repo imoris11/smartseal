@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './tell-us.css';
 
 export default function tellUs() {
@@ -14,7 +15,9 @@ export default function tellUs() {
             <p>Begin The Conversation Here...</p>
           </div>
           <div className={'col-xs-12 col-sm-2 col-md-3 '}>
-            <button className='tell-us-button'>Tell Us</button>
+            <Link to='/contact'>
+              <button className='tell-us-button'>Tell Us</button>
+            </Link>
           </div>
         </div>
       </div>

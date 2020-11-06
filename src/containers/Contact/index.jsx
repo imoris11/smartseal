@@ -66,41 +66,30 @@ function Contact() {
       </div>
 
       <div className='container rectangles '>
-        <div className='row center '>
-          <div className='col-xs-10 col-sm-3 col-md-3 rectangle-box'>
-            <img
-              src={hands}
-              className='hands'
-              alt='hands'
-              style={{ paddingTop: '24%' }}
-            />
-            <p>
-              The future is built on brand <br />
-              trust and transparency
-            </p>
-          </div>
-          <div className='col-xs-10 col-sm-3 col-md-3 rectangle-box'>
-            <img
-              src={engage}
-              className='engage'
-              alt='engage'
-              style={{ paddingTop: '25%' }}
-            />
-            <p>
-              Engage your customers with <br /> your brand’s promise
-            </p>
-          </div>
-          <div className='col-xs-10 col-sm-3 col-md-3 rectangle-box'>
-            <img
-              src={promote}
-              className='promote'
-              alt='promote'
-              style={{ paddingTop: '25%' }}
-            />
-            <p>
-              Build creative marketing campaigns <br /> through this direct
-              sales channel
-            </p>
+        <div className='row center'>
+          <div className='col-xs-12 col-sm-10 col-md-11'>
+            <div className='row rectangle-box-holder'>
+              <div className='col-xs-10 col-sm-3 col-md-3 rectangle-box'>
+                <img src={hands} className='hands' alt='hands' />
+                <p>
+                  The future is built on brand <br />
+                  trust and transparency
+                </p>
+              </div>
+              <div className='col-xs-10 col-sm-3 col-md-3 rectangle-box'>
+                <img src={engage} className='engage' alt='engage' />
+                <p>
+                  Engage your customers with <br /> your brand’s promise
+                </p>
+              </div>
+              <div className='col-xs-10 col-sm-3 col-md-3 rectangle-box'>
+                <img src={promote} className='promote' alt='promote' />
+                <p>
+                  Build creative marketing campaigns <br /> through this direct
+                  sales channel
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

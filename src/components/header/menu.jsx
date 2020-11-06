@@ -8,7 +8,7 @@ export default function Menu({ open, setOpen, dropped, setDropped }) {
   return (
     <div className='menu'>
       <div className='brand'>
-        <Link className='menu-logo' href='/'>
+        <Link to='/' className='menu-logo' href='/'>
           <img src={mobileLogo} alt={''} className='mobile' />
         </Link>
         <button

@@ -3,11 +3,12 @@ import lifecycle from '../../static/icon/life-cycle.png';
 import promote from '../../static/icon/promote.png';
 import recycle from '../../static/icon/recycle.png';
 import info from '../../static/icon/info.png';
-import boot from '../../static/img/retail.png';
-import spin from '../../static/img/engineering.png';
+import boot from '../../static/img/retail.svg';
+import spin from '../../static/img/engineering.svg';
 import TellUs from '../../components/tell-us/tell-us';
+import { Link } from 'react-router-dom';
 
-function Pharmacetical() {
+function Pharmaceutical() {
   return (
     <div>
       <div className='pharmaceutical-header'>
@@ -87,15 +88,8 @@ function Pharmacetical() {
       <div style={{ backgroundColor: '#F6F6EF' }}>
         <h2 style={{ textAlign: 'center', padding: '7%' }}>Related Markets</h2>
         <div className='container'>
-          <div
-            className='row'
-            style={{
-              paddingLeft: '7%',
-              paddingRight: '7%',
-              paddingBottom: '7%',
-            }}
-          >
-            <div className='col-sm-6'>
+          <div className='row pre-feature'>
+            <Link to='/fashion' className='col-sm-6'>
               <img
                 src={boot}
                 className='boot'
@@ -106,8 +100,8 @@ function Pharmacetical() {
               <p className='feature-small-text'>
                 Unique Consumer Experiences <br /> Means Better Brand Outlook.
               </p>
-            </div>
-            <div className='col-sm-6'>
+            </Link>
+            <Link to='/engineering' className='col-sm-6'>
               <img
                 src={spin}
                 className='spin'
@@ -119,7 +113,7 @@ function Pharmacetical() {
                 From easier access to technical information <br />
                 to better production lead-time.
               </p>
-            </div>
+            </Link>
           </div>
         </div>
       </div>
@@ -128,4 +122,4 @@ function Pharmacetical() {
   );
 }
 
-export default Pharmacetical;
+export default Pharmaceutical;

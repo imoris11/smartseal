@@ -14,8 +14,10 @@ export default function Header() {
   const [bottom, setBottom] = useState(false);
   const [open, setOpen] = useState(false);
   const [dropped, setDropped] = useState(false);
+  const [locate, setLocate] = useState('');
 
   useEffect(() => {
+    setLocate(window.location.pathname);
     let scrolled = document.scrollingElement.scrollTop;
 
     if (scrolled >= 120) {
@@ -108,8 +110,13 @@ export default function Header() {
             Blog
           </NavLink>
         </div>
-        <button type='submit' className='btn  contact-button'>
-          <Link to='/contact'>Contact us</Link>
+        <button
+          type='submit'
+          className={`btn contact-button ${
+            locate === '/contact' || locate === '/about' ? 'damn' : ''
+          }`}
+        >
+          <Link to='/contact'>Contact Us</Link>
         </button>
       </div>
       {dropped ? (

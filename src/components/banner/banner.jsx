@@ -1,12 +1,10 @@
 import React from 'react';
-import brand from '../../static/img/mobile-brand-oil.png';
-import arrow from '../../static/img/arrow.svg';
+import brand from '../../static/img/mobile-brand-oil.svg';
 import './banner.css';
 
 export default function Banner() {
   return (
     <div className={'banner '}>
-      <img src={arrow} alt='' className='arrow' />
       <div className='container '>
         <div className='row' style={{ paddingTop: '25vh' }}>
           <div className='col-xs-12 col-sm-6 col-md-6 banner-text  '>

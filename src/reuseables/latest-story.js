@@ -1,56 +1,56 @@
-import authentic from "../static/img/authentic.png";
-import parts from "../static/img/parts.png";
+import authentic from '../static/img/authentic.svg';
+import parts from '../static/img/parts.svg';
 
 function Latest() {
   return (
     <div
-      className="row"
+      className='row'
       style={{
-        paddingLeft: "7%",
-        paddingRight: "7%",
-        paddingBottom: "7%",
+        paddingLeft: '7%',
+        paddingRight: '7%',
+        paddingBottom: '7%',
       }}
     >
-      <div className="col-sm-4">
+      <div className='col-sm-4'>
         <img
           src={authentic}
-          className="authentic"
-          alt="authentic"
-          style={{ marginBottom: "20px", width: "100%" }}
+          className='authentic'
+          alt='authentic'
+          style={{ marginBottom: '20px', width: '100%' }}
         />
-        <span className="feature-bold-text">
+        <span className='feature-bold-text'>
           Importance Of Product <br /> Authentication
         </span>
-        <p className="feature-small-text" style={{ color: "#2DAA8D" }}>
+        <p className='feature-small-text' style={{ color: '#2DAA8D' }}>
           By: SmartSeal . October 9 2020
         </p>
       </div>
-      <div className="col-sm-4">
+      <div className='col-sm-4'>
         <img
           src={parts}
-          className="parts"
-          alt="parts"
-          style={{ marginBottom: "20px", width: "100%" }}
+          className='parts'
+          alt='parts'
+          style={{ marginBottom: '20px', width: '100%' }}
         />
-        <p className="feature-bold-text">
+        <p className='feature-bold-text'>
           Authenticated Engineering products and its values
         </p>
-        <p className="feature-small-text" style={{ color: "#2DAA8D" }}>
+        <p className='feature-small-text' style={{ color: '#2DAA8D' }}>
           By: SmartSeal . October 9 2020
         </p>
       </div>
-      <div className="col-sm-4">
+      <div className='col-sm-4'>
         <img
           src={parts}
-          className="parts"
-          alt="parts"
-          style={{ marginBottom: "20px", width: "100%" }}
+          className='parts'
+          alt='parts'
+          style={{ marginBottom: '20px', width: '100%' }}
         />
-        <p className="feature-bold-text">
+        <p className='feature-bold-text'>
           Medicine and Up to date values in authenticity.
         </p>
-        <p className="feature-small-text" style={{ color: "#2DAA8D" }}>
-          By: SmartSeal . October 9 2020{" "}
+        <p className='feature-small-text' style={{ color: '#2DAA8D' }}>
+          By: SmartSeal . October 9 2020{' '}
         </p>
       </div>
     </div>
