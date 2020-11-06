@@ -1,6 +1,6 @@
 .banner {
   min-height: 100vh;
-  background: url('../../static//img/background.png') no-repeat center center;
+  background: url('../../static//img/background.svg') no-repeat center center;
   background-size: cover;
 }
 .banner .banner-text {
@@ -17,9 +17,9 @@
 
 .banner h1 {
   font-size: calc(4vh + 0.2rem);
-  font-size: 48px;
+  font-size: 45px;
   font-family: 'Roboto Slab', sans-serif;
-  line-height: 50px;
+  line-height: 48px;
 }
 .banner p {
   font-weight: bold;
@@ -31,7 +31,7 @@
 }
 .banner-img {
   height: 80vh;
-  padding-left: 40px;
+  padding-left: 60px;
   display: flex;
   align-items: center;
 }

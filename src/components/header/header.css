@@ -4,11 +4,12 @@
   right: 0;
   top: 0;
   z-index: 999;
+  background: transparent;
 }
 
 .header-amid {
   background: white;
-  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.25);
 }
 .header-amid.header .nav-items .nav-item {
   color: black;
@@ -37,7 +38,7 @@
 }
 
 .nav-items {
-  margin: auto;
+  margin-left: auto;
 }
 .nav-items .nav-item {
   margin: 0 2vw;
@@ -55,10 +56,23 @@
   border: none;
   padding: 15px 35px;
   background-color: #008678;
+  font-size: 18px;
+}
+.damn {
+  background: white;
 }
 .contact-button a {
   color: white;
   font-weight: bold;
+}
+.damn a {
+  color: black;
+}
+.header-amid .damn {
+  background-color: #008678;
+}
+.header-amid .damn a {
+  color: white;
 }
 .menu-control-button {
   display: none;
@@ -110,19 +124,26 @@
   padding-left: 3px;
   color: black;
 }
+.desktop-market-dropdown-bg {
+  margin-top: -5vh;
+  transition: 0.5s ease-in-out, visibility 0.5s, opacity 1s ease-in;
+}
 #desktop-market-dropdown {
   display: flex;
   padding: 5vh 5vw;
-  gap: 30px;
+  gap: 20px;
 }
 #desktop-market-dropdown .item {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   align-items: stretch;
   width: 300px;
   text-align: left;
+  padding: 20px;
+}
+#desktop-market-dropdown .item:hover {
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.25);
 }
 #desktop-market-dropdown .item img {
   width: 100%;

@@ -3,16 +3,17 @@ import better from '../../static/icon/efficiency.png';
 import restore from '../../static/icon/restore.png';
 import support from '../../static/icon/support.png';
 import product from '../../static/icon/recycle.png';
-import medicine from '../../static/img/medicine.png';
-import spin from '../../static/img/engineering.png';
+import medicine from '../../static/img/medicine.svg';
+import spin from '../../static/img/engineering.svg';
 import TellUs from '../../components/tell-us/tell-us';
+import { Link } from 'react-router-dom';
 
 function Fashion() {
   return (
     <div>
       <div className='fashion-header'>
         <div className='container'>
-          <div className='row center'>
+          <div className='row '>
             <div className='col fashion-text text-white'>
               <h1>Retail/Luxury</h1>
               <p>
@@ -95,27 +96,21 @@ function Fashion() {
       <div style={{ backgroundColor: '#F6F6EF' }}>
         <h2 style={{ textAlign: 'center', padding: '7%' }}>Related Markets </h2>
         <div className='container'>
-          <div
-            className='row'
-            style={{
-              paddingLeft: '7%',
-              paddingRight: '7%',
-              paddingBottom: '7%',
-            }}
-          >
-            <div className='col-sm-6'>
+          <div className='row pre-feature'>
+            <Link to='/pharmaceutical' className='col-sm-6'>
               <img
                 src={medicine}
                 className='medicine'
                 alt='medicine'
                 style={{ marginBottom: '20px', width: '100%' }}
               />
-              <p className='feature-bold-text'>Retail/Luxury</p>
+              <p className='feature-bold-text'>Pharmaceutical</p>
               <p className='feature-small-text'>
-                Unique Consumer Experiences <br /> Means Better Brand Outlook.
+                Verifiable Products Means
+                <br /> Better Consumer Safety.
               </p>
-            </div>
-            <div className='col-sm-6'>
+            </Link>
+            <Link to='/engineering' className='col-sm-6'>
               <img
                 src={spin}
                 className='spin'
@@ -127,7 +122,7 @@ function Fashion() {
                 From easier access to technical information <br />
                 to better production lead-time.
               </p>
-            </div>
+            </Link>
           </div>
         </div>
       </div>

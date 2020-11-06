@@ -14,9 +14,34 @@ h1 {
   font-family: 'Roboto Slab', sans-serif;
   font-size: 40px;
 }
+
+a:hover {
+  text-decoration: none;
+}
+.rectangle-box-holder {
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+  flex-wrap: wrap;
+}
+.pre-feature {
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 7%;
+}
 .contact-margin-top {
   margin-top: 60px;
   font-size: 18px;
+}
+
+.terms-or-policy {
+  background: #008678;
+  min-height: 100vh;
+  border: 2px solid #008678;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 .contact-form {
   padding: 3vh 0 10vh;
@@ -40,7 +65,7 @@ h1 {
 }
 
 .fashion-header {
-  background-image: url('./static/img/retail-long.png');
+  background-image: url('./static/img/retail-long.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -56,7 +81,7 @@ h1 {
   font-family: 'Roboto Slab', sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 45px;
+  font-size: 40px;
   line-height: 65.94px;
 }
 .fashion-text > h2 {
@@ -148,7 +173,7 @@ h1 {
   margin-top: 12%;
 }
 .pharmaceutical-header {
-  background-image: url('./static/img/medicine-long.png');
+  background-image: url('./static/img/medicine-long.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -160,7 +185,7 @@ h1 {
   padding-top: 40vh;
 }
 .engineering-header {
-  background-image: url('./static/img/blade-long.png');
+  background-image: url('./static/img/blade-long.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -172,29 +197,31 @@ h1 {
   padding-top: 40vh;
 }
 .contact-header {
-  background-image: url('./static/img/asset.png');
+  background-image: url('./static/img/asset.svg');
   background-color: #008678;
   background-repeat: no-repeat;
+
   background-size: cover;
   background-position: center;
-  min-height: 80vh;
+  min-height: 70vh;
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 .blocker-contact {
-  min-height: 80vh;
-  background-color: #008678;
-  opacity: 0.8;
+  min-height: 70vh;
+  background-color: rgba(0, 134, 120, 0.85);
+}
+.rectangle-box:hover {
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.25);
 }
 
 .rectangle-box {
-  margin: 5vh auto;
+  margin: 1vh 0 5vh 0;
   text-align: center;
-  padding: 5vh 2vw;
-  width: 345px;
-  height: 396px;
+  padding: 10vh 0;
+  width: 310px;
   background: white;
   border-radius: 5px;
 }
@@ -221,6 +248,7 @@ h1 {
 
   color: #000000;
 }
+
 input[type='text'],
 select,
 textarea {
@@ -286,7 +314,7 @@ input[type='submit'] {
   background: rgba(50, 185, 171, 0.03);
 }
 .about-header {
-  background-image: url('./static/img/asset.png');
+  background-image: url('./static/img/asset.svg');
   background-color: #008678;
   background-repeat: no-repeat;
   background-size: cover;
@@ -297,11 +325,20 @@ input[type='submit'] {
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.about-header h2 {
+  margin-top: 30vh;
+  line-height: 60px;
+  font-size: 35px;
+  font-family: Roboto Slab;
+}
+.about-header h1 {
+  margin-top: 12vh;
+}
 .blocker {
-  background-color: #008678;
-  opacity: 0.8;
+  background-color: rgba(0, 134, 120, 0.85);
   min-height: 100vh;
 }
+
 .about-text > h1 {
   font-family: 'Roboto Slab', sans-serif;
   font-weight: 600;
@@ -311,7 +348,7 @@ input[type='submit'] {
   color: white;
 }
 .features-header {
-  background-image: url('./static/img/book-long.png');
+  background-image: url('./static/img/book-long.svg');
   background-color: #008678;
   background-repeat: no-repeat;
   background-size: cover;
@@ -355,7 +392,7 @@ input[type='submit'] {
   border-radius: 5px;
 }
 .blog-header {
-  background-image: url('static/img/Rectangle.png');
+  background-image: url('static/img/Rectangle.svg');
   background-color: #008678;
   background-repeat: no-repeat;
   background-size: cover;
@@ -363,11 +400,12 @@ input[type='submit'] {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+
   font-size: calc(10px + 2vmin);
   color: white;
 }
 .blog-header .container .row {
-  padding-top: 25vh;
+  padding-top: 35vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -396,7 +434,7 @@ input[type='submit'] {
   font-size: 18px;
 }
 .blog-post-header {
-  background-image: url('./static/img/pills-long.png');
+  background-image: url('./static/img/pills-long.svg');
   background: rgba(25, 62, 80, 0.81);
   background-repeat: no-repeat;
   background-size: cover;
@@ -453,8 +491,22 @@ input[type='submit'] {
 }
 
 @media screen and (max-width: 500px) {
+  .about-header h2 {
+    margin-top: 25vh;
+  }
+  .about-header h1 {
+    margin-top: 7vh;
+  }
+  .rectangle-box-holder {
+    gap: 0;
+  }
+  .container.about-text {
+    background-color: #f6f6ef;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+  }
   .rectangle-box {
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.25);
   }
   .blog-header {
     background: #007d70;
@@ -462,6 +514,9 @@ input[type='submit'] {
     min-height: 80vh;
     padding-top: 5vh;
     margin-bottom: 30vh;
+  }
+  .blog-header .container .row {
+    padding-top: 20vh;
   }
   .blog-post-header {
     padding: 0;
@@ -524,7 +579,7 @@ input[type='submit'] {
   text-align: center;
 }
 .product-header {
-  background-image: url('./static/img/boot.png');
+  background-image: url('./static/img/retail.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;

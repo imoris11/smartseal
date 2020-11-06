@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import retail from '../../static/img/retail.png';
-import medicine from '../../static/img/medicine.png';
-import parts from '../../static/img/engineering.png';
+import retail from '../../static/img/retail.svg';
+import medicine from '../../static/img/medicine.svg';
+import parts from '../../static/img/engineering.svg';
 
 export default function MobileDropdown({ open, setOpen, setDropped, dropped }) {
   return (

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import pills from '../../static/img/pills.png';
 import TellUs from '../../components/tell-us/tell-us';
 import Latest from '../../reuseables/latest-story';
 import { getPosts, formatDate } from '../../components/blog/ghost';
@@ -24,7 +23,10 @@ const BlogPage = () => {
     <div>
       <div className='blog-header'>
         <div className='container'>
-          <div className='row'>
+          <div
+            className='row'
+            style={{ display: 'flex', justifyContent: 'space-between' }}
+          >
             <div className='col-sm-5 blog-pill-desktop'>
               <img
                 src={posts[0].feature_image}
@@ -33,7 +35,7 @@ const BlogPage = () => {
                 width={'100%'}
               />
             </div>
-            <div className='col-xs-11 col-sm-7'>
+            <div className='col-xs-11 col-sm-6'>
               <div className='col fashion-text text-white'>
                 <div className='feature-button'>
                   <p>Featured</p>
@@ -44,7 +46,7 @@ const BlogPage = () => {
               </div>
             </div>
             <div className='col-xs-11 col-sm-5 blog-pill-mobile'>
-              <img src={pills} className='pills' alt='pills' />
+              <img src={posts[0].feature_image} className='pills' alt='pills' />
             </div>
           </div>
         </div>

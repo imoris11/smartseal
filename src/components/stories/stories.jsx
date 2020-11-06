@@ -1,7 +1,7 @@
 import React from "react";
-import authentic from "../../static/img/authentic.png";
-import parts from "../../static/img/parts.png";
-import capsules from "../../static/img/capsules.png";
+import authentic from '../../static/img/authentic.svg';
+import parts from '../../static/img/parts.svg';
+import capsules from '../../static/img/capsules.svg';
 import "./stories.css";
 
 export default function Stories() {

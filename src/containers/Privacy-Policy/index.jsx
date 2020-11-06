@@ -2,8 +2,8 @@ import React from 'react';
 
 function PrivacyPolicy() {
   return (
-    <div>
-      <h1>PrivacyPolicy Page</h1>
+    <div className='terms-or-policy'>
+      <h1>Privacy Policy</h1>
     </div>
   );
 }

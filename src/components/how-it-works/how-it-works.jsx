@@ -1,5 +1,5 @@
 import React from 'react';
-import brand from '../../static/img/tag.png';
+import brand from '../../static/img/tag.svg';
 import './how-it-works.css';
 
 export default function HowItWorks() {

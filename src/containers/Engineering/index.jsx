@@ -3,9 +3,10 @@ import industry from '../../static/icon/circle-dot.png';
 import support from '../../static/icon/support.png';
 import tap from '../../static/icon/on-tap.png';
 import trace from '../../static/icon/trace.png';
-import medicine from '../../static/img/medicine.png';
-import boot from '../../static/img/retail.png';
+import medicine from '../../static/img/medicine.svg';
+import boot from '../../static/img/retail.svg';
 import TellUs from '../../components/tell-us/tell-us';
+import { Link } from 'react-router-dom';
 
 function Engineering() {
   return (
@@ -94,15 +95,8 @@ function Engineering() {
       <div style={{ backgroundColor: '#F6F6EF' }}>
         <h2 style={{ textAlign: 'center', padding: '7%' }}>Related Markets </h2>
         <div className='container'>
-          <div
-            className='row'
-            style={{
-              paddingLeft: '7%',
-              paddingRight: '7%',
-              paddingBottom: '7%',
-            }}
-          >
-            <div className='col-sm-6'>
+          <div className='row pre-feature'>
+            <Link to='/fashion' className='col-sm-6'>
               <img
                 src={boot}
                 className='boot'
@@ -113,8 +107,8 @@ function Engineering() {
               <p className='feature-small-text'>
                 Unique Consumer Experiences <br /> Means Better Brand Outlook.
               </p>
-            </div>
-            <div className='col-sm-6'>
+            </Link>
+            <Link to='/pharmaceutical' className='col-sm-6'>
               <img
                 src={medicine}
                 className='medicine'
@@ -126,7 +120,7 @@ function Engineering() {
                 Verifiable Products Means
                 <br /> Better Consumer Safety.
               </p>
-            </div>
+            </Link>
           </div>
         </div>
       </div>

@@ -1,4 +1,4 @@
-import seal from '../../static/img/logo-icon.png';
+import seal from '../../static/img/logo-icon.svg';
 import facebook from '../../static/icon/facebook.png';
 import linkedin from '../../static/icon/linkedin.png';
 import twitter from '../../static/icon/twitter.png';
@@ -25,7 +25,7 @@ function Footer() {
                   <Link to='/engineering'>Engineering</Link>
                 </p>
                 <p className='footer-text-tag'>
-                  <Link to='/pharmaceutical'>Pharmacetical</Link>
+                  <Link to='/pharmaceutical'>Pharmaceutical</Link>
                 </p>
               </div>
               <div className='col-xs-6 col-sm-4 col-md-4 footer-text-single'>
