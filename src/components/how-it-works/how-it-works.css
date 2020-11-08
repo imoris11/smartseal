@@ -28,11 +28,19 @@
   justify-content: center;
   gap: 30px;
 }
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 500px) {
   .how-it-works .how-it-works-img.mobile {
     display: block;
   }
   .how-it-works .desktop {
+    display: none;
+  }
+  .gif {
+    display: none;
+  }
+}
+@media screen and (min-width: 501px) {
+  .how-it-works {
     display: none;
   }
 }

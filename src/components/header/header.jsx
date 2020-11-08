@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import logo from '../../static/img/logo.svg';
 import mobileLogo from '../../static/img/mobile-logo.svg';
-import close from '../../static/icon/close.png';
 import menu from '../../static/icon/menu.png';
 import './header.css';
 import DesktopDropdown from './desktop-dropdown';
@@ -62,22 +61,22 @@ export default function Header() {
         bottom ? 'header-bottom' : ''
       } header`}
     >
-      {open ? (
-        <Menu
-          setOpen={setOpen}
-          open={open}
-          dropped={dropped}
-          setDropped={setDropped}
-        />
-      ) : null}
-
+      {/* {open ? ( */}
+      <Menu
+        setOpen={setOpen}
+        open={open}
+        dropped={dropped}
+        setDropped={setDropped}
+      />
+      {/* ) : null} */}
+      <div className='majinboo'></div>
       <div className='container navigation'>
         <button
           type='button'
           className='menu-control-button'
           onClick={() => setOpen(!open)}
         >
-          <img src={open ? close : menu} alt={''} />
+          <img src={menu} alt={''} />
         </button>
         <Link to='' className='brand-logo' href='/'>
           <img

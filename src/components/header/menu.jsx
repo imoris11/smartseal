@@ -6,7 +6,7 @@ import MobileDropdown from './mobile-dropdown';
 
 export default function Menu({ open, setOpen, dropped, setDropped }) {
   return (
-    <div className='menu'>
+    <div className={`menu ${open ? 'in' : 'out'}`}>
       <div className='brand'>
         <Link to='/' className='menu-logo' href='/'>
           <img src={mobileLogo} alt={''} className='mobile' />

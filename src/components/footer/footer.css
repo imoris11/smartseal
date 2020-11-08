@@ -68,7 +68,7 @@ p.footer-text-tag a:hover {
     background-color: #193e50;
     color: white;
     font-size: 16px;
-    padding: 45px 25px;
+    padding: 45px 0;
   }
   .footer-img {
     display: none;

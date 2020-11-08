@@ -83,6 +83,7 @@
 
 /* Menu */
 .menu {
+  display: none;
   position: absolute;
   right: 0;
   left: 0;
@@ -91,6 +92,14 @@
   background: white;
   min-height: 50vh;
   padding: 7vh 5vh;
+  transform: translateY(-70vh);
+  transition: transform 400ms ease-in;
+}
+.menu.in {
+  transform: translateY(0);
+}
+.menu.out {
+  transform: translateY(-70vh);
 }
 .menu .brand {
   display: flex;
@@ -158,7 +167,13 @@
   text-decoration: none;
 }
 /*small screen*/
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 500px) {
+  .damn a {
+    color: white;
+  }
+  .menu {
+    display: block;
+  }
   .navigation {
     padding: 5vh 2vw;
   }

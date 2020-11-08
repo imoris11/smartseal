@@ -3,8 +3,8 @@ import better from '../../static/icon/efficiency.png';
 import restore from '../../static/icon/restore.png';
 import support from '../../static/icon/support.png';
 import product from '../../static/icon/recycle.png';
-import medicine from '../../static/img/medicine.svg';
-import spin from '../../static/img/engineering.svg';
+import medicine from '../../static/imgs/medicine.png';
+import spin from '../../static/imgs/blade.png';
 import TellUs from '../../components/tell-us/tell-us';
 import { Link } from 'react-router-dom';
 

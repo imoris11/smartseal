@@ -35,6 +35,9 @@
   justify-content: flex-end;
   margin-top: -20vh;
 }
+.registration-img img {
+  border-radius: 20px;
+}
 .registration .registration-img img.floating-img {
   position: absolute;
   z-index: 20;
@@ -51,6 +54,7 @@
   }
   .registration-img img {
     width: 100%;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
   }
   .registration .registration-img img.floating-img {
     top: 50%;

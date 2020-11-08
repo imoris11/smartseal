@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import TellUs from '../../components/tell-us/tell-us';
-import Latest from '../../reuseables/latest-story';
 import { getPosts, formatDate } from '../../components/blog/ghost';
 import Blog from '../../components/blog';
 import Loading from '../../components/loading';
@@ -15,6 +14,7 @@ const BlogPage = () => {
       }
       runCommand();
     }
+    return setPosts(null);
   }, [posts]);
 
   if (!posts) return <Loading />;
@@ -56,12 +56,6 @@ const BlogPage = () => {
           <div>
             <h2>Latest Stories</h2>
             <Blog posts={posts} />
-          </div>
-        </div>
-        <div className='container-fluid'>
-          <div>
-            <h2>Recommended For You</h2>
-            <Latest />
           </div>
         </div>
       </div>

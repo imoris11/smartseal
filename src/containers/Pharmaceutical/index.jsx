@@ -3,8 +3,8 @@ import lifecycle from '../../static/icon/life-cycle.png';
 import promote from '../../static/icon/promote.png';
 import recycle from '../../static/icon/recycle.png';
 import info from '../../static/icon/info.png';
-import boot from '../../static/img/retail.svg';
-import spin from '../../static/img/engineering.svg';
+import boot from '../../static/imgs/retail.png';
+import spin from '../../static/imgs/blade.png';
 import TellUs from '../../components/tell-us/tell-us';
 import { Link } from 'react-router-dom';
 

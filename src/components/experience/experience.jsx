@@ -1,6 +1,6 @@
 import React from 'react';
-import watch from '../../static/img/brand-watch.svg';
-import melatonin from '../../static/img/brand-melatonin.svg';
+import watch from '../../static/imgs/brand-watch.png';
+import melatonin from '../../static/imgs/brand-melatonin.png';
 import './experience.css';
 
 export default function Experience() {

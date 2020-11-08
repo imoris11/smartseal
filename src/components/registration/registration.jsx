@@ -1,6 +1,6 @@
 import React from 'react';
-import chain from '../../static/img/chain-of-study.svg';
-import registration from '../../static/img/product-registration.svg';
+import chain from '../../static/imgs/chain-of-study.png';
+import registration from '../../static/imgs/product-registration.png';
 import './registration.css';
 
 export default function Registration() {

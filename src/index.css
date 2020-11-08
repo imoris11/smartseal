@@ -65,7 +65,7 @@ a:hover {
 }
 
 .fashion-header {
-  background-image: url('./static/img/retail-long.svg');
+  background-image: url('./static/imgs/retail-long.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -185,7 +185,7 @@ a:hover {
   padding-top: 40vh;
 }
 .engineering-header {
-  background-image: url('./static/img/blade-long.svg');
+  background-image: url('./static/imgs/blade-long.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -348,7 +348,7 @@ input[type='submit'] {
   color: white;
 }
 .features-header {
-  background-image: url('./static/img/book-long.svg');
+  background-image: url('./static/imgs/book-long.png');
   background-color: #008678;
   background-repeat: no-repeat;
   background-size: cover;
@@ -579,7 +579,7 @@ input[type='submit'] {
   text-align: center;
 }
 .product-header {
-  background-image: url('./static/img/retail.svg');
+  background-image: url('./static/imgs/retail.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;

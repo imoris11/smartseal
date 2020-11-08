@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import TellUs from '../../components/tell-us/tell-us';
-import Latest from '../../reuseables/latest-story';
 import facebook from '../../static/icon/facebook.png';
 import linkedin from '../../static/icon/linkedin.png';
 import twitter from '../../static/icon/twitter.png';
@@ -17,7 +16,6 @@ const BlogPost = ({ match }) => {
   useEffect(() => {
     async function getSlugged() {
       if (!post) setPost(await getSinglePost(slug));
-      console.log(post);
     }
     getSlugged();
   }, [post, slug]);
@@ -83,11 +81,6 @@ const BlogPost = ({ match }) => {
           <div className='row  single-post '>
             <div dangerouslySetInnerHTML={createMarkup()} />
           </div>
-        </div>
-
-        <div className='container-fluid' style={{ backgroundColor: '#FFFCE3' }}>
-          <h2 style={{ textAlign: 'center', padding: '5%' }}>Related Posts</h2>
-          <Latest />
         </div>
 
         <TellUs />
