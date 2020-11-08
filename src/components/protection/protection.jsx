@@ -1,17 +1,18 @@
-import React from "react";
-import brand from '../../static/img/bottle.svg';
-import "./protection.css";
+import React from 'react';
+import brand from '../../static/imgs/bottle.png';
+import bottle from '../../static/imgs/bottle.png';
+import './protection.css';
 
 export default function HowItWorks() {
   return (
-    <div className="protection">
-      <div className="container">
-        <div className={"row center desktop"}>
-          <div className={"col-xs-12 col-sm-6 col-md-6 protection-img"}>
-            <img src={brand} alt="" />
+    <div className='protection'>
+      <div className='container'>
+        <div className={'row center desktop'}>
+          <div className={'col-xs-12 col-sm-6 col-md-6 protection-img'}>
+            <img src={bottle} alt='' />
           </div>
 
-          <div className={"col-xs-12 col-sm-6 col-md-6 protection-text"}>
+          <div className={'col-xs-12 col-sm-6 col-md-6 protection-text'}>
             <h1>
               Counterfeit & <br /> Forgery Protection
             </h1>
@@ -23,8 +24,8 @@ export default function HowItWorks() {
             </p>
           </div>
         </div>
-        <div className={"row center mobile"}>
-          <div className={"col-xs-12 col-sm-6 col-md-6 protection-text"}>
+        <div className={'row center mobile'}>
+          <div className={'col-xs-12 col-sm-6 col-md-6 protection-text'}>
             <h1>Counterfeit & Forgery Protection</h1>
             <p>
               Our multi-purpose tags, fitted with bank-grade encryption, allow
@@ -34,8 +35,8 @@ export default function HowItWorks() {
               consumers.
             </p>
           </div>
-          <div className={"col-xs-12 col-sm-6 col-md-6 protection-img"}>
-            <img src={brand} alt="" />
+          <div className={'col-xs-12 col-sm-6 col-md-6 protection-img'}>
+            <img src={brand} alt='' />
           </div>
         </div>
       </div>

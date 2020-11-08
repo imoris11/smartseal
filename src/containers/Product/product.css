@@ -32,7 +32,7 @@ h4 {
   background-color: #0a8f81;
 }
 .product-header {
-  background-image: url('../../static/img/retail-long.svg');
+  background-image: url('../../static/imgs/retail-long.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -73,7 +73,7 @@ h4 {
 }
 @media screen and (max-width: 500px) {
   .product-header {
-    background-image: url('../../static/img/retail.svg');
+    background-image: url('../../static/imgs/retail.png');
     min-height: 60vh;
   }
   .product-box {

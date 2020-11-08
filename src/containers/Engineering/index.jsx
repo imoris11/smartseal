@@ -3,8 +3,8 @@ import industry from '../../static/icon/circle-dot.png';
 import support from '../../static/icon/support.png';
 import tap from '../../static/icon/on-tap.png';
 import trace from '../../static/icon/trace.png';
-import medicine from '../../static/img/medicine.svg';
-import boot from '../../static/img/retail.svg';
+import medicine from '../../static/imgs/medicine.png';
+import boot from '../../static/imgs/retail.png';
 import TellUs from '../../components/tell-us/tell-us';
 import { Link } from 'react-router-dom';
 

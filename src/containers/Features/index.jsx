@@ -1,12 +1,12 @@
 import React from 'react';
-import brand from '../../static/img/the-brand.svg';
-import data from '../../static/img/dashboard.svg';
-import safety from '../../static/img/safety.svg';
+import brand from '../../static/imgs/the-brand.jpg';
+import data from '../../static/imgs/dashboard.png';
+import safety from '../../static/imgs/safety.png';
 import tag from '../../static/img/tag.svg';
-import api from '../../static/img/api.svg';
-import boot from '../../static/img/retail.svg';
-import medicine from '../../static/img/medicine.svg';
-import engineering from '../../static/img/engineering.svg';
+import api from '../../static/imgs/api.png';
+import boot from '../../static/imgs/retail.png';
+import medicine from '../../static/imgs/medicine.png';
+import engineering from '../../static/imgs/blade.png';
 import TellUs from '../../components/tell-us/tell-us';
 import './features.css';
 function Features() {
