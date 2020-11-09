@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import brand from '../../static/imgs/the-brand.jpg';
 import data from '../../static/imgs/dashboard.png';
 import safety from '../../static/imgs/safety.png';
@@ -8,13 +8,19 @@ import boot from '../../static/imgs/retail.png';
 import medicine from '../../static/imgs/medicine.png';
 import engineering from '../../static/imgs/blade.png';
 import TellUs from '../../components/tell-us/tell-us';
+import { Link } from 'react-router-dom';
 import './features.css';
+
 function Features() {
+  useEffect(() => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }, []);
   return (
     <div>
       <div className='features-header'>
         <div className='container'>
-          <div className='row ' style={{ paddingTop: '30vh' }}>
+          <div className='row'>
             <div className='col fashion-text text-white'>
               <h2>Brand visibility.</h2>
               <h2>Product Awareness & Authentication.</h2>
@@ -90,7 +96,7 @@ function Features() {
             We Build Solutions for...
           </h2>
           <div className='row pre-feature'>
-            <div className='col-sm-4'>
+            <Link to='/fashion' className='col-xs-12 col-sm-4'>
               <img
                 src={boot}
                 className='boot '
@@ -101,8 +107,8 @@ function Features() {
               <p className='feature-small-text'>
                 Unique Consumer Experiences Means Better Brand Outlook.
               </p>
-            </div>
-            <div className='col-sm-4'>
+            </Link>
+            <Link to='/pharmaceutical' className='col-xs-12 col-sm-4'>
               <img
                 src={medicine}
                 className='medicine '
@@ -113,8 +119,8 @@ function Features() {
               <p className='feature-small-text'>
                 Verifiable Products Means Better Consumer Safety.
               </p>
-            </div>
-            <div className='col-sm-4'>
+            </Link>
+            <Link to='/engineering' className='col-xs-12 col-sm-4'>
               <img
                 src={engineering}
                 className='engineering '
@@ -126,7 +132,7 @@ function Features() {
                 From easier access to technical information to better production
                 lead-time.
               </p>
-            </div>
+            </Link>
           </div>
         </div>
       </div>

@@ -5,6 +5,7 @@ import linkedin from '../../static/icon/linkedin.png';
 import twitter from '../../static/icon/twitter.png';
 import { getSinglePost, formatDate } from '../../components/blog/ghost';
 import Loading from '../../components/loading';
+import './blog.post.css';
 
 const BlogPost = ({ match }) => {
   const [post, setPost] = useState(null);

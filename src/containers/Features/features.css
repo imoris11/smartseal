@@ -1,5 +1,6 @@
 .pre-feature.flexer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 .feature-story {
@@ -13,3 +14,66 @@
 .feature-story:hover {
   box-shadow: 0 4px 25px rgba(0, 0, 0, 0.25);
 }
+.features-header {
+  background-image: url('../../static/imgs/book-long.png');
+  background-color: #008678;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-top: 30vh;
+}
+.features-header > h2 {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 176.9%;
+  text-transform: capitalize;
+  color: #fcfcfc;
+}
+
+.features-box-left {
+  position: static;
+  margin-left: 40px;
+  width: 345px;
+  height: 355px;
+  background: green;
+  border-radius: 5px;
+  padding-top: 8%;
+  text-align: center;
+}
+
+.features-box-right {
+  padding-top: 8%;
+  text-align: center;
+  margin-left: 40px;
+  width: 345px;
+  height: 355px;
+  background: green;
+  border-radius: 5px;
+}
+.img-resize {
+  width: '100%';
+  height: 'auto';
+}
+
+@media screen and (max-width: 500px) {
+  .features-header {
+    min-height: 60vh;
+    margin-top: 10vh;
+    padding-top: 5vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .features-header .fashion-text h2 {
+    font-size: 40px;
+    color: #fcfcfc;
+  }
+}
+

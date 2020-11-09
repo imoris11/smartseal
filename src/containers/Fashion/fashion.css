@@ -1,0 +1,63 @@
+.fashion-header {
+  background-image: url('../../static/imgs/retail-long.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-top: 40vh;
+}
+
+.fashion-text > h1 {
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 65.94px;
+}
+.fashion-text > h2 {
+  font-family: 'Roboto Slab', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 176.9%;
+  /* or 64px */
+  text-transform: capitalize;
+  color: #fcfcfc;
+}
+.d-p {
+  padding: 0 5vw;
+}
+.fashion-text > p {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 28.3px;
+}
+.retail-service {
+  padding-top: 10vh;
+}
+.retail-service > img {
+  margin-left: 22%;
+}
+.retail-service > h2 {
+  color: #000000;
+  text-align: center;
+}
+.retail-service > p {
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 16px;
+  line-height: 30.3px;
+}
+@media screen and (max-width: 500px) {
+  .fashion-header {
+    background-image: url('../../static/img/retail.svg');
+    margin-top: 15vh;
+    padding-top: 7vh;
+  }
+}

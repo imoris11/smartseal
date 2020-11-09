@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import simplicity from '../../static/icon/circle-dot.png';
 import security from '../../static/icon/secuurity.png';
 import efficiency from '../../static/icon/efficiency.png';
 import TellUs from '../../components/tell-us/tell-us';
+import './about.css';
 
 function About() {
+  useEffect(() => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }, []);
   return (
     <div>
       <div className='about-background'>
@@ -13,9 +18,13 @@ function About() {
             <div className='container '>
               <div className='row center'>
                 <div className='col-xs-12'>
-                  <h2 className='text-center'>
+                  <h2 className='text-center display-desktop'>
                     Continuously create unique and fully secure <br /> relevant
                     experiences based on brand need.
+                  </h2>
+                  <h2 className='text-center display-mobile'>
+                    Continuously Create Unique And Fully Secure Relevant
+                    Experiences Based On Brand Need.
                   </h2>
                 </div>
                 <div className='col-xs-12 about-text text-white'>
@@ -67,7 +76,7 @@ function About() {
             About Us
           </h1>
           <p
-            className='text-center'
+            className='text-center display-desktop'
             style={{
               fontSize: '18px',
               fontWeight: '500px',
@@ -87,6 +96,24 @@ function About() {
             along your value chain, lays out an infrastructure <br />
             where you can continuously create unique and fully secure relevant
             experiences based on brand need.
+          </p>
+          <p
+            className='text-center display-mobile'
+           
+          >
+            <br />
+            A few engineers, data analysts and marketers came together to
+            imagine a world where all physical products can be seamlessly
+            interactive through a secure channel. The smart solution became a
+            clever combination of bank-grade encrypted radio frequency
+            identification tags, intuitive mobile interactions without an app
+            being necessary and real-time hyper-local behavioral data provided
+            for brands.
+            <br /> <br /> <br /> <br />
+            We believe that by building a means of product access to everyone
+            along your value chain, lays out an infrastructure where you can
+            continuously create unique and fully secure relevant experiences
+            based on brand need.
           </p>
         </div>
       </div>

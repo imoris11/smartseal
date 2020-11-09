@@ -1,0 +1,59 @@
+.blog-header {
+  background-image: url('../../static/img/Rectangle.svg');
+  background-color: #008678;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.feature-button {
+  border-radius: 4px;
+  background-color: #fff4cd;
+  color: #000000;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 40px;
+  width: 150px;
+  text-align: center;
+  font-size: 18px;
+}
+.blog-header .container .row {
+  padding-top: 35vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.blog-body h2 {
+  padding: 5vh 0;
+  text-align: center;
+}
+.blog-pill-desktop {
+  display: block;
+}
+.blog-pill-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .blog-header {
+    background: #007d70;
+    height: 60vh;
+    min-height: 80vh;
+    padding-top: 5vh;
+    margin-bottom: 30vh;
+  }
+  .blog-header .container .row {
+    padding-top: 20vh;
+  }
+  .blog-header h1 {
+    font-size: 2em;
+  }
+}

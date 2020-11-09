@@ -7,10 +7,7 @@ export default function tellUs() {
     <div className='tell-us'>
       <div className='container'>
         <div className='row center'>
-          <div
-            className={'col-xs-12 col-sm-10 col-md-9'}
-            style={{ textAlign: 'left' }}
-          >
+          <div className={'col-xs-12 col-sm-10 col-md-9 tell-us-text'}>
             <h2>You Have Custom Thoughts On How We Can Help?</h2>
             <p>Begin The Conversation Here...</p>
           </div>

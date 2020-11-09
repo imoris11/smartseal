@@ -37,13 +37,10 @@ export default function HowItWorks() {
                 interactive signage infrastructure.
               </p>
             </div>
-
-            <div
-              className={'col-xs-12 col-sm-6 col-md-6 how-it-works-img mobile'}
-            >
-              <img src={brand} alt='' />
-            </div>
           </div>
+        </div>
+        <div className={' how-it-works-img mobile'}>
+          <img src={brand} alt='' />
         </div>
       </div>
     </React.Fragment>

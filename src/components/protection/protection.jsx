@@ -30,9 +30,8 @@ export default function HowItWorks() {
             <p>
               Our multi-purpose tags, fitted with bank-grade encryption, allow
               end-to-end authentication for products, providing protection for
-              brands and instilling <br />
-              confidence in brand promise for loyal, brand-conscious <br />
-              consumers.
+              brands and instilling confidence in brand promise for loyal,
+              brand-conscious consumers.
             </p>
           </div>
           <div className={'col-xs-12 col-sm-6 col-md-6 protection-img'}>

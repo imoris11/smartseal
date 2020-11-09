@@ -7,7 +7,7 @@ export default function Banner() {
     <div className={'banner '}>
       <div className='container '>
         <div className='row'>
-          <div className='col-xs-12 col-sm-6 col-md-6 banner-text  '>
+          <div className='col-xs-12 col-sm-6 col-md-6 banner-text'>
             <h1>Secure Identification</h1>
             <h1>For Physical Products</h1>
             <p>Tap Phone On Product To Authenticate</p>

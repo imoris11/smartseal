@@ -1,0 +1,9 @@
+.terms-or-policy {
+  background: #008678;
+  min-height: 100vh;
+  border: 2px solid #008678;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import './term.and.condtions.css';
 
 function TermsAndConditions() {
   return (

@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import hands from '../../static/icon/hands.png';
 import engage from '../../static/icon/user-engagement.png';
 import promote from '../../static/icon/promote.png';
+import './contact.css';
 
 function Contact() {
   const [state, setState] = useState({
@@ -15,7 +16,10 @@ function Contact() {
     industry: '',
     quantity: '',
   });
-
+  useEffect(() => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }, []);
   const handleChange = ({ target: { value, name } }) => {
     setState({ ...state, [name]: value });
     console.log(state);
@@ -56,7 +60,7 @@ function Contact() {
       <div className='contact-header'>
         <div className='blocker-contact'>
           <div className='container'>
-            <div className='row center' style={{ paddingTop: '30vh' }}>
+            <div className='row center'>
               <div className='col fashion-text text-white'>
                 <h1 className='text-center'>Let Us Begin!</h1>
               </div>
