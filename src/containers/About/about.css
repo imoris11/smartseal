@@ -1,0 +1,133 @@
+.about-header {
+  background-image: url('../../static/img/asset.svg');
+  background-color: #008678;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.about-header h2 {
+  margin-top: 30vh;
+  line-height: 60px;
+  font-size: 35px;
+  font-family: Roboto Slab;
+}
+.blocker {
+  background-color: rgba(0, 134, 120, 0.85);
+  min-height: 100vh;
+}
+.about-header h1 {
+  margin-top: 12vh;
+}
+.about-text > h1 {
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 50px;
+  line-height: 65.94px;
+  color: white;
+}
+.rectangle-box-holder {
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+  flex-wrap: wrap;
+}
+.about-background {
+  background: rgba(50, 185, 171, 0.03);
+}
+.rectangles-image {
+  margin-top: -30vh;
+  font-size: 16px;
+}
+.rectangles {
+  margin-top: -10%;
+  position: static;
+  font-size: 16px;
+}
+.rectangle-box > h3 {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+}
+.rectangle-box > p {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+.rectangle-box:hover {
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.25);
+}
+
+.rectangle-box {
+  margin: 1vh 0 5vh 0;
+  text-align: center;
+  padding: 10vh 0;
+  width: 310px;
+  background: white;
+  border-radius: 5px;
+}
+.about-text p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28.3px;
+}
+@media screen and (max-width: 500px) {
+  .about-header {
+    min-height: 60vh;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  .about-header h2 {
+    margin-top: 25vh;
+    line-height: 50px;
+    font-size: 30px;
+    font-family: Roboto Slab;
+  }
+  .blocker {
+    background-color: rgba(0, 134, 120, 0.85);
+    min-height: 60vh;
+  }
+
+  .about-header .about-text > h1 {
+    margin-top: 2vh;
+    font-size: 35px;
+    line-height: 50px;
+    padding-bottom: 12vh;
+    color: white;
+  }
+  .about-header h1 {
+    margin-top: 5vh;
+  }
+  .about-text p {
+    padding: 0 5vw;
+  }
+  .rectangle-box-holder {
+    gap: 0;
+  }
+  .container.about-text {
+    background-color: #f6f6ef;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+  }
+
+  .rectangle-box {
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.25);
+  }
+
+  .rectangles {
+    margin-top: -20%;
+  }
+}

@@ -40,25 +40,45 @@
 }
 .registration .registration-img img.floating-img {
   position: absolute;
-  z-index: 20;
-  width: max-content;
   left: -2%;
   top: 50%;
   max-width: 100%;
 }
 
 @media screen and (max-width: 500px) {
+  .registration {
+    padding-bottom: 75px;
+  }
+  .registration .registration-text {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+  .registration .registration-text h1 {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 47px;
+  }
+  .registration p::before {
+    height: 2px;
+    top: 60%;
+    width: 5px;
+    left: -15px;
+  }
   .registration-img {
     justify-content: center;
     margin-top: 0;
+    padding: 0 10vw;
   }
   .registration-img img {
-    width: 100%;
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+    max-width: 100%;
   }
   .registration .registration-img img.floating-img {
-    top: 50%;
-    left: 0;
+    position: absolute;
+    left: 5%;
+    top: 70%;
+    max-width: 100%;
   }
 }
 

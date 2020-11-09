@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import arrow from '../../static/icon/arrow.svg';
 import cart from '../../static/icon/cart.svg';
 import './product.css';
 
 function Product() {
+  useEffect(() => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }, []);
   return (
     <div className='product-page'>
       <div className='product-header'>

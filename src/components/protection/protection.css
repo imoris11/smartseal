@@ -41,10 +41,28 @@
 }
 
 @media screen and (max-width: 540px) {
+  .protection .protection-text h1 {
+    font-size: 38px;
+    line-height: 55px;
+  }
+  .protection .protection-text p {
+    padding-top: 3vh;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30pxpx;
+    color: black;
+  }
   .protection .desktop {
     display: none;
   }
   .protection .mobile {
     display: block;
+  }
+  .protection .protection-img {
+    height: 70vh;
+  }
+  .protection .protection-img img {
+    height: 70vh;
+    max-width: 100vw;
   }
 }

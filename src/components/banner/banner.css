@@ -16,8 +16,7 @@
   z-index: 10;
 }
 
-.banner h1 {
-  font-size: calc(4vh + 0.2rem);
+.banner .banner-text h1 {
   font-size: 45px;
   font-family: 'Roboto Slab', sans-serif;
   line-height: 48px;
@@ -43,6 +42,12 @@
   /* width: 235px; */
   max-height: 100vh;
 }
+.phone {
+  position: relative;
+  width: 235px;
+  height: 411.48px;
+  top: 204px;
+}
 @media screen and (max-width: 500px) {
   .banner {
     margin-top: 5vh;
@@ -50,8 +55,17 @@
     background: url('../../static//img/mobilebg.svg') no-repeat center center;
     background-size: cover;
   }
-  .banner h1 {
-    font-size: 30px;
+
+  .banner .banner-text h1 {
+    font-size: 33px;
+    font-family: 'Roboto Slab', sans-serif;
+    line-height: 38px;
+  }
+  .banner p {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 35.44px;
   }
 
   .banner img.arrow {

@@ -3,19 +3,26 @@ import TellUs from '../../components/tell-us/tell-us';
 import { getPosts, formatDate } from '../../components/blog/ghost';
 import Blog from '../../components/blog';
 import Loading from '../../components/loading';
+import './blog.css';
 
 const BlogPage = () => {
   const [posts, setPosts] = useState(null);
   useEffect(() => {
-    if (!posts) {
-      async function runCommand() {
-        setPosts(await getPosts());
-        console.log(posts);
-      }
+    async function runCommand() {
+      setPosts(await getPosts());
+      console.log(posts);
+    }
+    if (posts === null) {
       runCommand();
     }
+
     return setPosts(null);
-  }, [posts]);
+  }, []);
+
+  useEffect(() => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }, []);
 
   if (!posts) return <Loading />;
 

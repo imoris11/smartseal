@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import industry from '../../static/icon/circle-dot.png';
 import support from '../../static/icon/support.png';
 import tap from '../../static/icon/on-tap.png';
@@ -7,8 +7,13 @@ import medicine from '../../static/imgs/medicine.png';
 import boot from '../../static/imgs/retail.png';
 import TellUs from '../../components/tell-us/tell-us';
 import { Link } from 'react-router-dom';
+import './engineering.css';
 
 function Engineering() {
+  useEffect(() => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }, []);
   return (
     <div>
       <div className='engineering-header'>
@@ -34,11 +39,16 @@ function Engineering() {
               style={{ marginLeft: '40%' }}
             />
             <h2>Support Your Value Chain</h2>
-            <p>
+            <p className='display-desktop'>
               Smartseal has created an authentication layer <br /> that securely
               and easily gets important <br /> information to manufacturers and
               maintenance
               <br /> agents in the field.
+            </p>
+            <p className='display-mobile'>
+              Smartseal has created an authentication layer that securely and
+              easily gets important information to manufacturers and maintenance
+              agents in the field.
             </p>
           </div>
           <div className='col-xs-12 col-sm-6 col-md-6 retail-service'>
@@ -49,11 +59,16 @@ function Engineering() {
               style={{ marginLeft: '40%' }}
             />
             <h2>Industry Trust. No F.O.D</h2>
-            <p>
+            <p className='display-desktop'>
               Your products have a standard that has to be <br /> met. You now
               have a platform that to enable a <br />
               chain of custody protocol to communicate this
               <br /> to your end customers.
+            </p>
+            <p className='display-mobile'>
+              Your products have a standard that has to be met. You now have a
+              platform that to enable a chain of custody protocol to communicate
+              this to your end customers.
             </p>
           </div>
         </div>
@@ -66,13 +81,19 @@ function Engineering() {
               style={{ marginLeft: '40%' }}
             />
             <h2>Information Is A Tap Away</h2>
-            <p>
+            <p className='display-desktop'>
               We enable and can connect to your internal <br /> supply chain
               management consoles. This opens
               <br /> up a world where technical schematics, material <br />
               composition and regulatory details can be
               <br />
               securely shared directly from each end product.
+            </p>
+            <p className='display-mobile'>
+              We enable and can connect to your internal supply chain management
+              consoles. This opens up a world where technical schematics,
+              material composition and regulatory details can be securely shared
+              directly from each end product.
             </p>
           </div>
           <div className='col-xs-12 col-sm-6 col-md-6 retail-service'>
@@ -83,11 +104,16 @@ function Engineering() {
               style={{ marginLeft: '40%' }}
             />
             <h2>Component Traceability</h2>
-            <p>
+            <p className='display-desktop'>
               Your customers can trace origin points to prove <br /> no illegal
               production overruns or counterfeits.
               <br /> The durability data here strengthens your
               <br /> brand promise.
+            </p>
+            <p className='display-mobile'>
+              Your customers can trace origin points to prove no illegal
+              production overruns or counterfeits. The durability data here
+              strengthens your brand promise.
             </p>
           </div>
         </div>
@@ -96,7 +122,7 @@ function Engineering() {
         <h2 style={{ textAlign: 'center', padding: '7%' }}>Related Markets </h2>
         <div className='container'>
           <div className='row pre-feature'>
-            <Link to='/fashion' className='col-sm-6'>
+            <Link to='/fashion' className='col-xs-12 col-sm-6'>
               <img
                 src={boot}
                 className='boot'
@@ -108,7 +134,7 @@ function Engineering() {
                 Unique Consumer Experiences <br /> Means Better Brand Outlook.
               </p>
             </Link>
-            <Link to='/pharmaceutical' className='col-sm-6'>
+            <Link to='/pharmaceutical' className='col-xs-12 col-sm-6'>
               <img
                 src={medicine}
                 className='medicine'

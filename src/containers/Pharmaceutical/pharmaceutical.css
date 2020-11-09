@@ -1,0 +1,36 @@
+.pharmaceutical-header {
+  background-image: url('../../static/img/medicine-long.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-top: 40vh;
+}
+.retail-service {
+  padding-top: 10vh;
+}
+.retail-service > img {
+  margin-left: 22%;
+}
+.retail-service > h2 {
+  color: #000000;
+  text-align: center;
+}
+.retail-service > p {
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 16px;
+  line-height: 30.3px;
+}
+@media screen and (max-width: 500px) {
+  .pharmaceutical-header {
+    background-image: url('../../static/img/medicine.svg');
+    margin-top: 15vh;
+    padding-top: 7vh;
+  }
+}

@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import Banner from '../../components/banner/banner';
 import Registration from '../../components/registration/registration';
 import Protection from '../../components/protection/protection';
@@ -7,6 +7,10 @@ import Experience from '../../components/experience/experience';
 import TellUs from '../../components/tell-us/tell-us';
 
 function Home() {
+   useEffect(() => {
+     document.body.scrollTop = 0;
+     document.documentElement.scrollTop = 0;
+   }, []);
   return (
     <div className={'more'}>
       <Banner />

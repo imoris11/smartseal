@@ -9,7 +9,7 @@ export default function Experience() {
       <div className='container'>
         <div className='row center'>
           <div className='col-xs-12 col-sm-6 col-md-6  experience-text'>
-            <h1>Interactive Brand Experience</h1>
+            <h1>Interactive Brand Experiences</h1>
             <ul className='dashed'>
               <li>
                 Leverage our technology to design brand experiences that are
@@ -17,7 +17,6 @@ export default function Experience() {
                 depending on distinct buyer attributes and product features.
               </li>
               <li>
-                {' '}
                 Create a continuous brand story that encourages consumers to
                 learn more about the production process, how to use a product,
                 new and upcoming features, or hear curated stories.

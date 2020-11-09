@@ -15,8 +15,6 @@
 .how-it-works .how-it-works-img img {
   width: 100%;
 }
-.how-it-works .how-it-works-img.desktop {
-}
 .how-it-works p {
   font: 5vw;
   margin: 5vh auto;
@@ -34,6 +32,18 @@
   }
   .how-it-works .desktop {
     display: none;
+  }
+  .how-it-works .text {
+    padding: 0 10vw 10vh 10vw;
+  }
+  .how-it-works .text h1 {
+    font-size: 38px;
+    margin-bottom: 5vh;
+  }
+  .how-it-works .text p {
+    font: 5vw;
+    margin: 0 auto;
+    font-weight: 500;
   }
   .gif {
     display: none;

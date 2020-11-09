@@ -18,9 +18,8 @@ function Footer() {
               <div className='col-xs-6 col-sm-4 col-md-4 footer-text-single'>
                 <b>Market</b>
                 <p className='footer-text-tag'>
-                  <Link to='/fashion'>Fashion</Link>
+                  <Link to='/fashion'>Retail/Luxury</Link>
                 </p>
-
                 <p className='footer-text-tag'>
                   <Link to='/engineering'>Engineering</Link>
                 </p>
@@ -31,7 +30,7 @@ function Footer() {
               <div className='col-xs-6 col-sm-4 col-md-4 footer-text-single'>
                 <b>Information</b>
                 <p className='footer-text-tag'>
-                  <Link to='/about'>About us</Link>
+                  <Link to='/about'>About Us</Link>
                 </p>
                 <p className='footer-text-tag'>
                   <Link to='/contact'>Contact Us</Link>
