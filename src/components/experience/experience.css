@@ -51,7 +51,7 @@ ul {
 @media screen and (max-width: 500px) {
   .experience-text h1 {
     font-size: 33px;
-    padding-left: 20px;
+    padding-left: 12px;
   }
 
   .experience .experience-img img {

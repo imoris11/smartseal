@@ -15,7 +15,7 @@ function Fashion() {
     document.documentElement.scrollTop = 0;
   }, []);
   return (
-    <div>
+    <div className='fashion'>
       <div className='fashion-header'>
         <div className='container'>
           <div className='row '>
@@ -32,12 +32,7 @@ function Fashion() {
       <div className=' container'>
         <div className='row'>
           <div className='col-xs-12 col-sm-6 col-md-6 retail-service'>
-            <img
-              src={better}
-              className='better'
-              alt='better'
-              style={{ marginLeft: '40%' }}
-            />
+            <img src={better} className='better' alt='better' />
             <h2 style={{ textAlign: 'center' }}>Better Serve Your Customers</h2>
             <p className='display-desktop'>
               Giving your product buyers a way to prove <br /> ownership allows
@@ -53,12 +48,7 @@ function Fashion() {
             </p>
           </div>
           <div className='col-xs-12 col-sm-6 col-md-6 retail-service'>
-            <img
-              src={restore}
-              className='restore'
-              alt='restore'
-              style={{ marginLeft: '40%' }}
-            />
+            <img src={restore} className='restore' alt='restore' />
             <h2 style={{ textAlign: 'center' }}>Restore Brand Identity</h2>
             <p className='display-desktop'>
               A highly encrypted and embedded label <br /> protects your brand’s
@@ -76,12 +66,7 @@ function Fashion() {
         </div>
         <div className='row' style={{ paddingBottom: '10vh' }}>
           <div className='col-xs-12 col-sm-6 col-md-6 retail-service'>
-            <img
-              src={product}
-              className='product'
-              alt='product'
-              style={{ marginLeft: '40%' }}
-            />
+            <img src={product} className='product' alt='product' />
             <h2 style={{ textAlign: 'center' }}>Product Interaction</h2>
             <p className='display-desktop'>
               Our technology provides your brand with an easy <br /> way to
@@ -100,12 +85,7 @@ function Fashion() {
             </p>
           </div>
           <div className='col-xs-12 col-sm-6 col-md-6 retail-service'>
-            <img
-              src={support}
-              className='support'
-              alt='support'
-              style={{ marginLeft: '40%' }}
-            />
+            <img src={support} className='support' alt='support' />
             <h2>Support Sustainability</h2>
             <p className='display-desktop'>
               Your brand can better enable initiatives that <br /> increases

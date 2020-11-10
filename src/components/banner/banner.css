@@ -29,17 +29,10 @@
   font-size: 18px;
   line-height: 35.44px;
 }
-/* .banner-img {
-  height: 80vh;
-  padding-left: 60px;
-  display: flex;
-  align-items: center;
-} */
 
 .banner-img img {
   margin-top: 8vh;
   height: 400px;
-  /* width: 235px; */
   max-height: 100vh;
 }
 .phone {
@@ -59,7 +52,10 @@
   .banner .banner-text h1 {
     font-size: 33px;
     font-family: 'Roboto Slab', sans-serif;
-    line-height: 38px;
+    line-height: 30px;
+  }
+  .banner .banner-text h1:first-of-type {
+    font-size: 35px;
   }
   .banner p {
     font-weight: normal;

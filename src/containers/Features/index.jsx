@@ -17,12 +17,12 @@ function Features() {
     document.documentElement.scrollTop = 0;
   }, []);
   return (
-    <div>
+    <div className='features'>
       <div className='features-header'>
         <div className='container'>
           <div className='row'>
             <div className='col fashion-text text-white'>
-              <h2>Brand visibility.</h2>
+              <h2>Brand Visibility.</h2>
               <h2>Product Awareness & Authentication.</h2>
             </div>
           </div>
@@ -31,11 +31,9 @@ function Features() {
 
       <div className='container-fluid'>
         <div style={{ backgroundColor: 'F6F6EF' }}>
-          <h2 style={{ textAlign: 'center', padding: '7%' }}>
-            Featured Stories
-          </h2>
-          <div className='row pre-feature'>
-            <div className='col-sm-4 feature-story'>
+          <h1 className='features-title'>Features</h1>
+          <div className='row pre-feature flexer'>
+            <div className='col-sm-4 col-md-4 feature-story '>
               <img src={brand} className='brand img-resize' alt='brand' />
               <p className='feature-bold-text'>Digital Product Identity</p>
               <p className='feature-small-text'>
@@ -43,7 +41,7 @@ function Features() {
                 your brand by easily verifying that your product isn’t forged.
               </p>
             </div>
-            <div className='col-sm-4 feature-story'>
+            <div className='col-sm-4 col-md-4 feature-story'>
               <img src={data} className='data img-resize' alt='data' />
               <p className='feature-bold-text'>Data Visualization</p>
               <p className='feature-small-text'>
@@ -53,7 +51,7 @@ function Features() {
                 relevant user agent data you can filter.
               </p>
             </div>
-            <div className='col-sm-4 feature-story'>
+            <div className='col-sm-4 col-md-4 feature-story'>
               <img src={safety} className='safety ' alt='safety' />
               <p className='feature-bold-text'>Guaranteed Product Security</p>
               <p className='feature-small-text'>
@@ -61,10 +59,10 @@ function Features() {
                 3rd Parties.
               </p>
             </div>
-          </div>
+            {/* </div>
 
-          <div className='row  pre-feature flexer'>
-            <div className='col-sm-4 feature-story'>
+          <div className='row  pre-feature flexer'> */}
+            <div className='col-sm-4 col-md-4 feature-story'>
               <img src={tag} className='tag ' alt='tag' />
               <p className='feature-bold-text'>
                 Drop-in Scripts For Your <br />
@@ -75,7 +73,7 @@ function Features() {
                 about through a product’s entire lifecycle.
               </p>
             </div>
-            <div className='col-sm-4 feature-story'>
+            <div className='col-sm-4 col-md-4 feature-story'>
               <img src={api} className='api ' alt='api' />
               <p className='feature-bold-text'>
                 Full Featured API For Easy <br /> Integration To Our Database
@@ -90,13 +88,14 @@ function Features() {
           </div>
         </div>
       </div>
-      <div className='container-fluid'>
-        <div style={{ backgroundColor: 'F6F6EF' }}>
+
+      <div className='container-fluid' style={{ background: 'f6f6ef' }}>
+        <div>
           <h2 style={{ textAlign: 'center', padding: '7%' }}>
-            We Build Solutions for...
+            We Build For Solutions...
           </h2>
           <div className='row pre-feature'>
-            <Link to='/fashion' className='col-xs-12 col-sm-4'>
+            <Link to='/fashion' className='col-xs-12 col-sm-4 mt2'>
               <img
                 src={boot}
                 className='boot '

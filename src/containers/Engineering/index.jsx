@@ -15,7 +15,7 @@ function Engineering() {
     document.documentElement.scrollTop = 0;
   }, []);
   return (
-    <div>
+    <div className='engineering'>
       <div className='engineering-header'>
         <div className='container'>
           <div className='row'>
@@ -32,12 +32,7 @@ function Engineering() {
       <div className=' container'>
         <div className='row'>
           <div className='col-xs-12 col-sm-6 col-md-6 retail-service'>
-            <img
-              src={support}
-              className='support'
-              alt='support'
-              style={{ marginLeft: '40%' }}
-            />
+            <img src={support} className='support' alt='support' />
             <h2>Support Your Value Chain</h2>
             <p className='display-desktop'>
               Smartseal has created an authentication layer <br /> that securely
@@ -52,12 +47,7 @@ function Engineering() {
             </p>
           </div>
           <div className='col-xs-12 col-sm-6 col-md-6 retail-service'>
-            <img
-              src={industry}
-              className='industry'
-              alt='industry'
-              style={{ marginLeft: '40%' }}
-            />
+            <img src={industry} className='industry' alt='industry' />
             <h2>Industry Trust. No F.O.D</h2>
             <p className='display-desktop'>
               Your products have a standard that has to be <br /> met. You now
@@ -74,12 +64,7 @@ function Engineering() {
         </div>
         <div className='row' style={{ paddingBottom: '10vh' }}>
           <div className='col-xs-12 col-sm-6 col-md-6 retail-service'>
-            <img
-              src={tap}
-              className='tap'
-              alt='tap'
-              style={{ marginLeft: '40%' }}
-            />
+            <img src={tap} className='tap' alt='tap' />
             <h2>Information Is A Tap Away</h2>
             <p className='display-desktop'>
               We enable and can connect to your internal <br /> supply chain
@@ -97,12 +82,7 @@ function Engineering() {
             </p>
           </div>
           <div className='col-xs-12 col-sm-6 col-md-6 retail-service'>
-            <img
-              src={trace}
-              className='trace'
-              alt='trace'
-              style={{ marginLeft: '40%' }}
-            />
+            <img src={trace} className='trace' alt='trace' />
             <h2>Component Traceability</h2>
             <p className='display-desktop'>
               Your customers can trace origin points to prove <br /> no illegal
