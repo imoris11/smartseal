@@ -55,10 +55,9 @@
   }
   .registration .registration-text h1 {
     font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: normal;
     font-size: 36px;
     line-height: 47px;
+    margin-left: -15px;
   }
   .registration p::before {
     height: 2px;

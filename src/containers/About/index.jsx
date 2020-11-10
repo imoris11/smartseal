@@ -91,16 +91,13 @@ function About() {
             identification tags, intuitive mobile interactions without an app
             being necessary and <br /> real-time hyper-local behavioral data
             provided for brands.
-            <br /> <br /> <br /> <br />
+            <br /> <br /> <br />
             We believe that by building a means of product access to everyone
             along your value chain, lays out an infrastructure <br />
             where you can continuously create unique and fully secure relevant
             experiences based on brand need.
           </p>
-          <p
-            className='text-center display-mobile'
-           
-          >
+          <p className='text-center display-mobile'>
             <br />
             A few engineers, data analysts and marketers came together to
             imagine a world where all physical products can be seamlessly
@@ -109,7 +106,7 @@ function About() {
             identification tags, intuitive mobile interactions without an app
             being necessary and real-time hyper-local behavioral data provided
             for brands.
-            <br /> <br /> <br /> <br />
+            <br /> <br /> <br />
             We believe that by building a means of product access to everyone
             along your value chain, lays out an infrastructure where you can
             continuously create unique and fully secure relevant experiences

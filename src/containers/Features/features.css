@@ -3,14 +3,18 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-.feature-story {
+.pre-feature.flexer .feature-story {
   padding: 15px 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .feature-story img {
-  margin-bottom: 20px;
   width: 100%;
+  margin-bottom: 40px;
+  border-radius: 7px;
 }
+
 .feature-story:hover {
   box-shadow: 0 4px 25px rgba(0, 0, 0, 0.25);
 }
@@ -47,7 +51,10 @@
   padding-top: 8%;
   text-align: center;
 }
-
+.features-title {
+  text-align: center;
+  margin: 60px auto 0;
+}
 .features-box-right {
   padding-top: 8%;
   text-align: center;
@@ -58,8 +65,8 @@
   border-radius: 5px;
 }
 .img-resize {
-  width: '100%';
-  height: 'auto';
+  width: 100%;
+  height: auto;
 }
 
 @media screen and (max-width: 500px) {
@@ -71,9 +78,30 @@
     justify-content: center;
     align-items: center;
   }
+  .features .pre-feature .medicine,
+  .features .pre-feature .boot,
+  .features .pre-feature .engineering {
+    margin-top: 40px;
+  }
+  .pre-feature.flexer .feature-story {
+    padding: 15px 20px;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+
+  .feature-story img {
+    width: 100%;
+    border-radius: 7px;
+    margin: 40px auto;
+  }
+
+  .features-title {
+    text-align: center;
+    margin: 60px auto 0;
+  }
+
   .features-header .fashion-text h2 {
     font-size: 40px;
     color: #fcfcfc;
   }
 }
-

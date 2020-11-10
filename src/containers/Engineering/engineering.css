@@ -10,6 +10,13 @@
   color: white;
   padding-top: 40vh;
 }
+.engineering .retail-service .support,
+.engineering .retail-service .tap,
+.engineering .retail-service .trace,
+.engineering .retail-service .industry {
+  display: block;
+  margin: 0 auto;
+}
 .retail-service {
   padding-top: 10vh;
 }

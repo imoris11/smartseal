@@ -10,6 +10,13 @@
   color: white;
   padding-top: 40vh;
 }
+.pharmaceutical .promote,
+.pharmaceutical .info,
+.pharmaceutical .lifecycle,
+.pharmaceutical .recycle {
+  display: block;
+  margin: 0 auto;
+}
 .retail-service {
   padding-top: 10vh;
 }

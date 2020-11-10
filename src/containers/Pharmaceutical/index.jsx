@@ -15,7 +15,7 @@ function Pharmaceutical() {
     document.documentElement.scrollTop = 0;
   }, []);
   return (
-    <div>
+    <div className='pharmaceutical'>
       <div className='pharmaceutical-header'>
         <div className='container'>
           <div className='row'>
@@ -35,7 +35,6 @@ function Pharmaceutical() {
               src={lifecycle}
               className='lifecycle '
               alt='lifecycle'
-              style={{ marginLeft: '40%' }}
             />
             <h2>Lifecycle Service</h2>
             <p className='display-desktop'>
@@ -55,7 +54,6 @@ function Pharmaceutical() {
               src={promote}
               className='promote'
               alt='promote'
-              style={{ marginLeft: '40%' }}
             />
             <h2>Promote Brand Trust</h2>
             <p className='display-desktop'>
@@ -76,7 +74,6 @@ function Pharmaceutical() {
               src={recycle}
               className='recycle'
               alt='recycle'
-              style={{ marginLeft: '40%' }}
             />
             <h2>Solve Recyclability</h2>
             <p className='display-desktop'>
@@ -95,7 +92,6 @@ function Pharmaceutical() {
               src={info}
               className='info'
               alt='info'
-              style={{ marginLeft: '40%' }}
             />
             <h2>Granular Telehealth</h2>
             <p className='display-desktop'>
